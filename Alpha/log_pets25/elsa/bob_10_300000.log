@@ -1,0 +1,215 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.22s
+     Running `target/release/server-mp -g 300000 -n 10 -m 'localhost:7777' -b -p 6667 -s 16 -i 32`
+  [2m2025-02-22T01:11:47.526053Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:7777": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:11:47.643704Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:118
+
+Start:   Client Fetch
+End:     Client Fetch ..............................................................1.976s
+Start:   Exchange seeds
+End:     Exchange seeds ............................................................1.376ms
+Start:   OT Verify + B2A
+  [2m2025-02-22T01:11:51.455142Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Alice] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     OT Verify + B2A ...........................................................2.549s
+Start:   SqCorr Verify
+  [2m2025-02-22T01:11:53.664531Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     SqCorr Verify .............................................................156.745ms
+Start:   A2S
+End:     A2S .......................................................................16.221ms
+Start:   Hash Verification
+  [2m2025-02-22T01:11:53.680838Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[B2A Hash AB] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T01:11:53.680852Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[A2S Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T01:11:53.680856Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T01:11:53.680861Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     Hash Verification .........................................................34.296µs
+client comm, MPC comm, client phase 1, client phase 2, OT + B2A, Correlation verify, A2S, Hash verify
+822017280, 504000696, 1.976653593, 0, 2.549813458, 0.156753109, 0.016252983, 0.000038098
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.25s
+     Running `target/release/server-mp -g 300000 -n 10 -m 'localhost:7777' -b -p 6667 -s 16 -i 32`
+  [2m2025-02-22T09:13:19.687197Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:7777": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T09:13:19.805070Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:118
+
+Start:   Client Fetch
+End:     Client Fetch ..............................................................2.032s
+Start:   Exchange seeds
+End:     Exchange seeds ............................................................1.360ms
+Start:   OT Verify + B2A
+  [2m2025-02-22T09:13:23.723978Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Alice] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     OT Verify + B2A ...........................................................2.165s
+Start:   SqCorr Verify
+  [2m2025-02-22T09:13:25.625116Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     SqCorr Verify .............................................................158.112ms
+Start:   A2S
+End:     A2S .......................................................................17.830ms
+Start:   Hash Verification
+  [2m2025-02-22T09:13:25.643043Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[B2A Hash AB] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:13:25.643054Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[A2S Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:13:25.643057Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:13:25.643061Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     Hash Verification .........................................................26.598µs
+client comm, MPC comm, client phase 1, client phase 2, OT + B2A, Correlation verify, A2S, Hash verify
+822017280, 504000696, 2.032500617, 0, 2.166000503, 0.158120315, 0.017860204, 0.000029406
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.26s
+     Running `target/release/server-mp -g 300000 -n 10 -m 'localhost:7777' -b -p 6667 -s 16 -i 32`
+  [2m2025-02-22T09:14:23.039749Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:7777": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T09:14:23.157818Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:118
+
+Start:   Client Fetch
+End:     Client Fetch ..............................................................1.889s
+Start:   Exchange seeds
+End:     Exchange seeds ............................................................22.016ms
+Start:   OT Verify + B2A
+  [2m2025-02-22T09:14:26.970284Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Alice] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     OT Verify + B2A ...........................................................2.162s
+Start:   SqCorr Verify
+  [2m2025-02-22T09:14:29.124244Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     SqCorr Verify .............................................................458.911ms
+Start:   A2S
+End:     A2S .......................................................................49.781ms
+Start:   Hash Verification
+  [2m2025-02-22T09:14:29.174117Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[B2A Hash AB] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:14:29.174130Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[A2S Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:14:29.174134Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:14:29.174138Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     Hash Verification .........................................................30.543µs
+client comm, MPC comm, client phase 1, client phase 2, OT + B2A, Correlation verify, A2S, Hash verify
+822017280, 504000696, 1.8891289310000001, 0, 2.162486605, 0.458920664, 0.04981532, 0.000034548
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.22s
+     Running `target/release/server-mp -g 300000 -n 10 -m 'localhost:7777' -b -p 6667 -s 16 -i 32`
+  [2m2025-02-22T09:15:26.383125Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:118
+
+Start:   Client Fetch
+End:     Client Fetch ..............................................................1.999s
+Start:   Exchange seeds
+End:     Exchange seeds ............................................................1.368ms
+Start:   OT Verify + B2A
+  [2m2025-02-22T09:15:30.528183Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Alice] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     OT Verify + B2A ...........................................................2.073s
+Start:   SqCorr Verify
+  [2m2025-02-22T09:15:32.462789Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     SqCorr Verify .............................................................456.858ms
+Start:   A2S
+End:     A2S .......................................................................45.273ms
+Start:   Hash Verification
+  [2m2025-02-22T09:15:32.508145Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[B2A Hash AB] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:15:32.508156Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[A2S Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:15:32.508160Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:15:32.508164Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     Hash Verification .........................................................28.186µs
+client comm, MPC comm, client phase 1, client phase 2, OT + B2A, Correlation verify, A2S, Hash verify
+822017280, 504000696, 1.9991065460000002, 0, 2.073465486, 0.456867776, 0.045302694, 0.000032107
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.24s
+     Running `target/release/server-mp -g 300000 -n 10 -m 'localhost:7777' -b -p 6667 -s 16 -i 32`
+  [2m2025-02-22T09:16:29.751476Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:118
+
+Start:   Client Fetch
+End:     Client Fetch ..............................................................1.927s
+Start:   Exchange seeds
+End:     Exchange seeds ............................................................27.336ms
+Start:   OT Verify + B2A
+  [2m2025-02-22T09:16:33.792620Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Alice] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     OT Verify + B2A ...........................................................1.974s
+Start:   SqCorr Verify
+  [2m2025-02-22T09:16:35.681686Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     SqCorr Verify .............................................................487.577ms
+Start:   A2S
+End:     A2S .......................................................................42.821ms
+Start:   Hash Verification
+  [2m2025-02-22T09:16:35.724597Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[B2A Hash AB] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:16:35.724610Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[A2S Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:16:35.724627Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[OT Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+  [2m2025-02-22T09:16:35.724632Z[0m [32m INFO[0m [1;32mserver_mp::utils[0m[32m: [32m[SqCorr Verify Hash] All passed![0m
+    [2;3mat[0m server-mp/src/utils.rs:97
+
+End:     Hash Verification .........................................................44.843µs
+client comm, MPC comm, client phase 1, client phase 2, OT + B2A, Correlation verify, A2S, Hash verify
+822017280, 504000696, 1.9278234090000002, 0, 1.97472562, 0.487586766, 0.042854679, 0.000049063

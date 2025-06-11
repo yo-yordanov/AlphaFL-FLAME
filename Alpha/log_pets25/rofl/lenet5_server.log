@@ -1,0 +1,23 @@
+nohup: ignoring input
+[2024-10-13 04:57:17.105079 +00:00] INFO [rofl_service/src/bin/config_server.rs:90] Global model loaded from file: /home/dai/rofl-project-code/models/cifar_lenet5_initialized.txt
+[2024-10-13 04:57:17.165588 +00:00] INFO [rofl_service/src/bin/config_server.rs:103] Global model has 62006 parameters and learning rate 1
+[2024-10-13 04:57:17.165648 +00:00] INFO [rofl_service/src/bin/config_server.rs:108] Lazy verification true, Train until round 1
+[2024-10-13 04:57:39.846087 +00:00] INFO [rofl_service/src/flserver/server.rs:574] Register Messages received from from client 1 for model 1
+[2024-10-13 04:57:39.846196 +00:00] INFO [rofl_service/src/flserver/server.rs:574] Register Messages received from from client 2 for model 1
+[2024-10-13 04:57:39.846268 +00:00] INFO [rofl_service/src/flserver/server.rs:574] Register Messages received from from client 3 for model 1
+[2024-10-13 04:57:39.846345 +00:00] INFO [rofl_service/src/flserver/server.rs:574] Register Messages received from from client 0 for model 1
+[2024-10-13 04:57:39.846451 +00:00] INFO [rofl_service/src/flserver/server.rs:598] Initialize model and broadcast it to clients
+[2024-10-13 04:57:39.875461 +00:00] INFO [rofl_service/src/flserver/server.rs:602] First training round has started
+[2024-10-13 05:26:27.317994 +00:00] INFO [rofl_service/src/flserver/server.rs:630] Received model params from Client 3
+[2024-10-13 05:26:40.878387 +00:00] INFO [rofl_service/src/flserver/server.rs:699] Aggregate Model of client 3 for round 0
+[2024-10-13 05:26:55.045034 +00:00] INFO [rofl_service/src/flserver/server.rs:630] Received model params from Client 2
+[2024-10-13 05:27:07.322225 +00:00] INFO [rofl_service/src/flserver/server.rs:630] Received model params from Client 1
+[2024-10-13 05:27:08.941410 +00:00] INFO [rofl_service/src/flserver/server.rs:699] Aggregate Model of client 2 for round 0
+[2024-10-13 05:27:20.669893 +00:00] INFO [rofl_service/src/flserver/server.rs:630] Received model params from Client 0
+[2024-10-13 05:27:21.209012 +00:00] INFO [rofl_service/src/flserver/server.rs:699] Aggregate Model of client 1 for round 0
+[2024-10-13 05:27:34.739874 +00:00] INFO [rofl_service/src/flserver/server.rs:699] Aggregate Model of client 0 for round 0
+[2024-10-13 05:27:34.739995 +00:00] INFO [rofl_service/src/flserver/server.rs:706] Start extracting plaintext model for round 0
+[2024-10-13 05:27:35.001436 +00:00] INFO [rofl_service/src/flserver/server.rs:718] Plaintext model extracted for round 0
+[2024-10-13 05:27:35.003792 +00:00] INFO [rofl_service/src/flserver/server.rs:753] Training for model 1 is done, max round reached
+
+[2024-10-13 05:26:27.238678 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:276] Client 3 finished training for round 0

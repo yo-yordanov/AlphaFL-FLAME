@@ -1,0 +1,642 @@
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In constructor ‘AesModeCTR::AesModeCTR(const unsigned char*, AesKeySize, const unsigned char*)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:40:24: warning: ‘int AES_set_encrypt_key(const unsigned char*, int, AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   40 |     AES_set_encrypt_key((const unsigned char *)key, ks, &AESkey);
+      |     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:22:
+/usr/include/openssl/aes.h:51:5: note: declared here
+   51 | int AES_set_encrypt_key(const unsigned char *userKey, const int bits,
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In member function ‘void AesModeCTR::Encrypt(const unsigned char*, unsigned char*, size_t)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:92:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   92 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:108:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  108 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp: In function ‘int main()’:
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:49: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ~~^   ~~~~~~
+      |                                                 |   |
+      |                                                 |   long long int
+      |                                                 long int
+      |                                               %lld
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:47: warning: ‘%ld’ directive writing 17 bytes into a region of size 16 [-Wformat-overflow=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ^~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:46: note: directive argument in the range [11111007890123466, 11111007890163466]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                              ^~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:16: note: ‘sprintf’ output 18 bytes into a destination of size 16
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AN: Setup phase finished.
+AN: Awaiting all clients to send their results for ANs...
+
+==== Assisting Node RESULTS ====
+AN: Semi-Honest Setting (Setup Phase): 0.5934238433837891 ms
+AN: Malicious Setting (Setup Phase): 0.6639957427978516 ms
+AN: Semi-Honest Setting (Aggregation Phase): 3.8298720595703126 ms
+AN: Malicious Setting (Aggregation Phase): 19.884768414245606 ms
+===============================
+
+============================================
+**** Assisting Node OUTBOUND BANDWIDTH ****
+AN: Semi-Honest Setting (Setup Phase): 330 B
+AN: Malicious Setting (Setup Phase): 693 B
+AN: Semi-Honest Setting (Aggregation Phase): 400008 B
+AN: Malicious Setting (Aggregation Phase): 400079 B
+============================================
+
+Server: Server is up
+Server: Num of Users 10
+Server: Num of Assisting Nodes 3
+Server: Setup phase finished.
+Server: Awaiting all clients...
+Server: Aggregating...
+Server: init time: 22.24588394165039 ms
+Aggregated vector:
+[20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ '...',
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20]
+Server: Aggregation phase finished.
+
+==== Server RESULTS ====
+Server: Semi-Honest Setting (Setup Phase): 0 ms
+Server: Malicious Setting (Setup Phase): 0.08153915405273438 ms
+Server: Semi-Honest Setting (Aggregation Phase): 24.735212326049805 ms
+Server: Malicious Setting (Aggregation Phase): 72.75772094726562 ms
+Server: Commitment Aggregation Time 3.160238265991211 ms
+========================
+
+===================================
+**** Server OUTBOUND BANDWIDTH ****
+Server: Semi-Honest Setting (Setup Phase): 0 B
+Server: Malicious Setting (Setup Phase): 330 B
+Server: Semi-Honest Setting (Aggregation Phase): 4000000 B
+Server: Malicious Setting (Aggregation Phase): 4000070 B
+===================================
+
+Client: Setup phase finished.
+Client: Computing commitment...
+Client: Computing masked weight...
+
+==== Client RESULTS ====
+Client: Semi-Honest Setting (Setup Phase): 0.2300739288330078 ms
+Client: Malicious Setting (Setup Phase): 0.31948089599609375 ms
+Client: Semi-Honest Setting (Aggregation Phase): 1.9921338420410155 ms
+Client: Malicious Setting (Aggregation Phase): 4.848865256835937 ms
+Client: Decryption Time: 0.0553131103515625 ms
+Client: Commitment Time: 2.600557788213094 min
+========================
+
+============================================
+**** Client OUTBOUND BANDWIDTH ****
+Client: Semi-Honest Setting (Setup Phase): 99 B
+Client: Malicious Setting (Setup Phase): 231 B
+Client: Semi-Honest Setting (Aggregation Phase): 400016 B
+Client: Malicious Setting (Aggregation Phase): 400296 B
+============================================
+
+Client: Sending Masking Updates and Sig for Server...
+Client: Sending Masking Updates and Sig for AssistantNodes...
+Online Client: Verifying aggregated model...
+Online Client: Verified! It is a valid aggregated model.
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In constructor ‘AesModeCTR::AesModeCTR(const unsigned char*, AesKeySize, const unsigned char*)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:40:24: warning: ‘int AES_set_encrypt_key(const unsigned char*, int, AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   40 |     AES_set_encrypt_key((const unsigned char *)key, ks, &AESkey);
+      |     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:22:
+/usr/include/openssl/aes.h:51:5: note: declared here
+   51 | int AES_set_encrypt_key(const unsigned char *userKey, const int bits,
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In member function ‘void AesModeCTR::Encrypt(const unsigned char*, unsigned char*, size_t)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:92:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   92 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:108:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  108 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp: In function ‘int main()’:
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:49: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ~~^   ~~~~~~
+      |                                                 |   |
+      |                                                 |   long long int
+      |                                                 long int
+      |                                               %lld
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:47: warning: ‘%ld’ directive writing 17 bytes into a region of size 16 [-Wformat-overflow=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ^~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:46: note: directive argument in the range [11111007890123466, 11111007890163466]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                              ^~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:16: note: ‘sprintf’ output 18 bytes into a destination of size 16
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AN: Setup phase finished.
+AN: Awaiting all clients to send their results for ANs...
+
+==== Assisting Node RESULTS ====
+AN: Semi-Honest Setting (Setup Phase): 0.5652904510498047 ms
+AN: Malicious Setting (Setup Phase): 0.6380081176757812 ms
+AN: Semi-Honest Setting (Aggregation Phase): 3.8755744748535155 ms
+AN: Malicious Setting (Aggregation Phase): 20.093373899978637 ms
+===============================
+
+============================================
+**** Assisting Node OUTBOUND BANDWIDTH ****
+AN: Semi-Honest Setting (Setup Phase): 330 B
+AN: Malicious Setting (Setup Phase): 693 B
+AN: Semi-Honest Setting (Aggregation Phase): 400008 B
+AN: Malicious Setting (Aggregation Phase): 400079 B
+============================================
+
+Server: Server is up
+Server: Num of Users 10
+Server: Num of Assisting Nodes 3
+Server: Setup phase finished.
+Server: Awaiting all clients...
+Server: Aggregating...
+Server: init time: 22.487401962280273 ms
+Aggregated vector:
+[20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ '...',
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20]
+Server: Aggregation phase finished.
+
+==== Server RESULTS ====
+Server: Semi-Honest Setting (Setup Phase): 0 ms
+Server: Malicious Setting (Setup Phase): 0.09107589721679688 ms
+Server: Semi-Honest Setting (Aggregation Phase): 24.508237838745117 ms
+Server: Malicious Setting (Aggregation Phase): 71.74396514892578 ms
+Server: Commitment Aggregation Time 3.298521041870117 ms
+========================
+
+===================================
+**** Server OUTBOUND BANDWIDTH ****
+Server: Semi-Honest Setting (Setup Phase): 0 B
+Server: Malicious Setting (Setup Phase): 330 B
+Server: Semi-Honest Setting (Aggregation Phase): 4000000 B
+Server: Malicious Setting (Aggregation Phase): 4000071 B
+===================================
+
+Client: Setup phase finished.
+Client: Computing commitment...
+Client: Computing masked weight...
+
+==== Client RESULTS ====
+Client: Semi-Honest Setting (Setup Phase): 0.37479400634765625 ms
+Client: Malicious Setting (Setup Phase): 0.4589557647705078 ms
+Client: Semi-Honest Setting (Aggregation Phase): 1.9148062890625002 ms
+Client: Malicious Setting (Aggregation Phase): 4.76510040222168 ms
+Client: Decryption Time: 0.04696846008300781 ms
+Client: Commitment Time: 2.5662416855494183 min
+========================
+
+============================================
+**** Client OUTBOUND BANDWIDTH ****
+Client: Semi-Honest Setting (Setup Phase): 99 B
+Client: Malicious Setting (Setup Phase): 231 B
+Client: Semi-Honest Setting (Aggregation Phase): 400016 B
+Client: Malicious Setting (Aggregation Phase): 400297 B
+============================================
+
+Client: Sending Masking Updates and Sig for Server...
+Client: Sending Masking Updates and Sig for AssistantNodes...
+Online Client: Verifying aggregated model...
+Online Client: Verified! It is a valid aggregated model.
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In constructor ‘AesModeCTR::AesModeCTR(const unsigned char*, AesKeySize, const unsigned char*)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:40:24: warning: ‘int AES_set_encrypt_key(const unsigned char*, int, AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   40 |     AES_set_encrypt_key((const unsigned char *)key, ks, &AESkey);
+      |     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:22:
+/usr/include/openssl/aes.h:51:5: note: declared here
+   51 | int AES_set_encrypt_key(const unsigned char *userKey, const int bits,
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In member function ‘void AesModeCTR::Encrypt(const unsigned char*, unsigned char*, size_t)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:92:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   92 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:108:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  108 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp: In function ‘int main()’:
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:49: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ~~^   ~~~~~~
+      |                                                 |   |
+      |                                                 |   long long int
+      |                                                 long int
+      |                                               %lld
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:47: warning: ‘%ld’ directive writing 17 bytes into a region of size 16 [-Wformat-overflow=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ^~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:46: note: directive argument in the range [11111007890123466, 11111007890163466]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                              ^~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:16: note: ‘sprintf’ output 18 bytes into a destination of size 16
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AN: Setup phase finished.
+AN: Awaiting all clients to send their results for ANs...
+
+==== Assisting Node RESULTS ====
+AN: Semi-Honest Setting (Setup Phase): 0.5769729614257812 ms
+AN: Malicious Setting (Setup Phase): 0.6470680236816406 ms
+AN: Semi-Honest Setting (Aggregation Phase): 3.866588779785156 ms
+AN: Malicious Setting (Aggregation Phase): 19.99615234980774 ms
+===============================
+
+============================================
+**** Assisting Node OUTBOUND BANDWIDTH ****
+AN: Semi-Honest Setting (Setup Phase): 330 B
+AN: Malicious Setting (Setup Phase): 693 B
+AN: Semi-Honest Setting (Aggregation Phase): 400008 B
+AN: Malicious Setting (Aggregation Phase): 400079 B
+============================================
+
+Server: Server is up
+Server: Num of Users 10
+Server: Num of Assisting Nodes 3
+Server: Setup phase finished.
+Server: Awaiting all clients...
+Server: Aggregating...
+Server: init time: 22.42422103881836 ms
+Aggregated vector:
+[20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ '...',
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20,
+ 20]
+Server: Aggregation phase finished.
+
+==== Server RESULTS ====
+Server: Semi-Honest Setting (Setup Phase): 0 ms
+Server: Malicious Setting (Setup Phase): 0.08082389831542969 ms
+Server: Semi-Honest Setting (Aggregation Phase): 24.77574348449707 ms
+Server: Malicious Setting (Aggregation Phase): 71.74062728881836 ms
+Server: Commitment Aggregation Time 3.1228065490722656 ms
+========================
+
+===================================
+**** Server OUTBOUND BANDWIDTH ****
+Server: Semi-Honest Setting (Setup Phase): 0 B
+Server: Malicious Setting (Setup Phase): 330 B
+Server: Semi-Honest Setting (Aggregation Phase): 4000000 B
+Server: Malicious Setting (Aggregation Phase): 4000071 B
+===================================
+
+Client: Setup phase finished.
+Client: Computing commitment...
+Client: Computing masked weight...
+
+==== Client RESULTS ====
+Client: Semi-Honest Setting (Setup Phase): 0.24557113647460938 ms
+Client: Malicious Setting (Setup Phase): 0.3199577331542969 ms
+Client: Semi-Honest Setting (Aggregation Phase): 1.9309189152832031 ms
+Client: Malicious Setting (Aggregation Phase): 4.772629959594727 ms
+Client: Decryption Time: 0.054836273193359375 ms
+Client: Commitment Time: 2.626520812511444 min
+========================
+
+============================================
+**** Client OUTBOUND BANDWIDTH ****
+Client: Semi-Honest Setting (Setup Phase): 99 B
+Client: Malicious Setting (Setup Phase): 231 B
+Client: Semi-Honest Setting (Aggregation Phase): 400016 B
+Client: Malicious Setting (Aggregation Phase): 400297 B
+============================================
+
+Client: Sending Masking Updates and Sig for Server...
+Client: Sending Masking Updates and Sig for AssistantNodes...
+Online Client: Verifying aggregated model...
+Online Client: Verified! It is a valid aggregated model.
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In constructor ‘AesModeCTR::AesModeCTR(const unsigned char*, AesKeySize, const unsigned char*)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:40:24: warning: ‘int AES_set_encrypt_key(const unsigned char*, int, AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   40 |     AES_set_encrypt_key((const unsigned char *)key, ks, &AESkey);
+      |     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:22:
+/usr/include/openssl/aes.h:51:5: note: declared here
+   51 | int AES_set_encrypt_key(const unsigned char *userKey, const int bits,
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In member function ‘void AesModeCTR::Encrypt(const unsigned char*, unsigned char*, size_t)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:92:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   92 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:108:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  108 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp: In function ‘int main()’:
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:49: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ~~^   ~~~~~~
+      |                                                 |   |
+      |                                                 |   long long int
+      |                                                 long int
+      |                                               %lld
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:47: warning: ‘%ld’ directive writing 17 bytes into a region of size 16 [-Wformat-overflow=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ^~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:46: note: directive argument in the range [11111007890123466, 11111007890163466]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                              ^~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:16: note: ‘sprintf’ output 18 bytes into a destination of size 16
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Server: Server is up
+Server: Num of Users 10
+Server: Num of Assisting Nodes 3
+Server: Setup phase finished.
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/ServerCode/Server.py", line 550, in <module>
+    main()
+  File "/home/dai/e-SeaFL/ServerCode/Server.py", line 523, in main
+    serverSocket, last_connection = manageConnections(public_key_sign, clientDict, assistantNodeDict, NumberOfUsers, NumberOfANs, commitmentUse)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dai/e-SeaFL/ServerCode/Server.py", line 452, in manageConnections
+    server.bind(ADDR)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 473, in <module>
+    main()
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 441, in main
+    AssistantNode.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 473, in <module>
+    main()
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 441, in main
+    AssistantNode.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 473, in <module>
+    main()
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 441, in main
+    AssistantNode.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In constructor ‘AesModeCTR::AesModeCTR(const unsigned char*, AesKeySize, const unsigned char*)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:40:24: warning: ‘int AES_set_encrypt_key(const unsigned char*, int, AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   40 |     AES_set_encrypt_key((const unsigned char *)key, ks, &AESkey);
+      |     ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:22:
+/usr/include/openssl/aes.h:51:5: note: declared here
+   51 | int AES_set_encrypt_key(const unsigned char *userKey, const int bits,
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp: In member function ‘void AesModeCTR::Encrypt(const unsigned char*, unsigned char*, size_t)’:
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:92:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   92 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/AesModeCTR.cpp:108:20: warning: ‘void AES_encrypt(const unsigned char*, unsigned char*, const AES_KEY*)’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+  108 |         AES_encrypt(IvCtr, AesCipherOut, (const AES_KEY *)&AESkey);
+      |         ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/openssl/aes.h:57:6: note: declared here
+   57 | void AES_encrypt(const unsigned char *in, unsigned char *out,
+      |      ^~~~~~~~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp: In function ‘int main()’:
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:49: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 3 has type ‘long long int’ [-Wformat=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ~~^   ~~~~~~
+      |                                                 |   |
+      |                                                 |   long long int
+      |                                                 long int
+      |                                               %lld
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:47: warning: ‘%ld’ directive writing 17 bytes into a region of size 16 [-Wformat-overflow=]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                               ^~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:46: note: directive argument in the range [11111007890123466, 11111007890163466]
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |                                              ^~~~~
+/home/dai/e-SeaFL/AesModeCTR-master/TestAesModeCTR.cpp:64:16: note: ‘sprintf’ output 18 bytes into a destination of size 16
+   64 |         sprintf(reinterpret_cast<char*>(iv), "%ld", iv_int);
+      |         ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Server: Server is up
+Server: Num of Users 10
+Server: Num of Assisting Nodes 3
+Server: Setup phase finished.
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/ServerCode/Server.py", line 550, in <module>
+    main()
+  File "/home/dai/e-SeaFL/ServerCode/Server.py", line 523, in main
+    serverSocket, last_connection = manageConnections(public_key_sign, clientDict, assistantNodeDict, NumberOfUsers, NumberOfANs, commitmentUse)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dai/e-SeaFL/ServerCode/Server.py", line 452, in manageConnections
+    server.bind(ADDR)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 473, in <module>
+    main()
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 441, in main
+    AssistantNode.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 473, in <module>
+    main()
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 441, in main
+    AssistantNode.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 473, in <module>
+    main()
+  File "/home/dai/e-SeaFL/AssistingNodeCode/AssistingNodeCode.py", line 441, in main
+    AssistantNode.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused
+Traceback (most recent call last):
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 632, in <module>
+    main()
+  File "/home/dai/e-SeaFL/UserCode/User.py", line 595, in main
+    client.connect(ADDR)
+ConnectionRefusedError: [Errno 111] Connection refused

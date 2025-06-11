@@ -1,0 +1,95 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-mp -g 100000 -n 30 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T01:08:37.488391Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 30, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................3.554ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................745.488ms
+  [2m2025-02-22T01:08:38.237528Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T01:08:38.300794Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-mp -g 100000 -n 30 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T09:00:38.861957Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 30, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................3.759ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................791.446ms
+  [2m2025-02-22T09:00:39.657256Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T09:00:39.720623Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.24s
+     Running `target/release/client-mp -g 100000 -n 30 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T09:01:41.482918Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 30, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................4.100ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................813.751ms
+  [2m2025-02-22T09:01:42.300874Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T09:01:42.363784Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.22s
+     Running `target/release/client-mp -g 100000 -n 30 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T09:02:44.070835Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 30, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................4.165ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................782.834ms
+  [2m2025-02-22T09:02:44.857931Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T09:02:44.921439Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.22s
+     Running `target/release/client-mp -g 100000 -n 30 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T09:03:46.624366Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 30, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................4.671ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................824.176ms
+  [2m2025-02-22T09:03:47.453311Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T09:03:47.520925Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+

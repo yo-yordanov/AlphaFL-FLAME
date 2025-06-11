@@ -1,0 +1,4 @@
+a, b, ab = sint.get_random_triple()
+e = (b - a).reveal()
+d = ab - e * a
+check_point()

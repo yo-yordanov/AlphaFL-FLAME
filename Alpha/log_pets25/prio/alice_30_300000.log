@@ -1,0 +1,77 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/server-baseline-mp -g 300000 -n 30 -m 7777 -p 6666 -s 16 -i 32`
+  [2m2025-02-26T10:03:04.838497Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mListening to 7777[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:93
+
+  [2m2025-02-26T10:03:05.318075Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:102
+
+Start:   Receive Input Sharing and SNIP Proof from Client
+Client messages size: 30x(211017833, 113)
+End:     Receive Input Sharing and SNIP Proof from Client ..........................4.534s
+Start:   Server prepare verification messages
+  [2m2025-02-26T10:03:09.853172Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_alice length: 211017833[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:87
+
+  [2m2025-02-26T10:03:09.853198Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_bob length: 113[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:88
+
+  [2m2025-02-26T10:03:09.853201Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32musing batch size: 1024[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:89
+
+End:     Server prepare verification messages ......................................122.345s
+Start:   Server Exchange verification messages
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/server-baseline-mp -g 300000 -n 30 -m 7777 -p 6666 -s 16 -i 32`
+  [2m2025-02-26T16:18:29.454318Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mListening to 7777[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:93
+
+  [2m2025-02-26T16:18:29.910020Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:102
+
+Start:   Receive Input Sharing and SNIP Proof from Client
+Client messages size: 30x(211017833, 113)
+End:     Receive Input Sharing and SNIP Proof from Client ..........................4.583s
+Start:   Server prepare verification messages
+  [2m2025-02-26T16:18:34.494101Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_alice length: 211017833[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:87
+
+  [2m2025-02-26T16:18:34.494111Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_bob length: 113[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:88
+
+  [2m2025-02-26T16:18:34.494113Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32musing batch size: 1024[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:89
+
+End:     Server prepare verification messages ......................................64.311s
+Start:   Server Exchange verification messages
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 1.24s
+     Running `target/release/server-baseline-mp -g 300000 -n 30 -m 7777 -p 6666 -s 16 -i 32`
+  [2m2025-02-26T16:20:17.234143Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mListening to 7777[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:93
+
+  [2m2025-02-26T16:20:17.740958Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:102
+
+Start:   Receive Input Sharing and SNIP Proof from Client
+Client messages size: 30x(211017833, 113)
+End:     Receive Input Sharing and SNIP Proof from Client ..........................4.540s
+Start:   Server prepare verification messages
+  [2m2025-02-26T16:20:22.281697Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_alice length: 211017833[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:87
+
+  [2m2025-02-26T16:20:22.281707Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_bob length: 113[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:88
+
+  [2m2025-02-26T16:20:22.281709Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32musing batch size: 1024[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:89
+

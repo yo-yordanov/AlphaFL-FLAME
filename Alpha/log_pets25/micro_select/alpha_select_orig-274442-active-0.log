@@ -1,0 +1,11 @@
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+REUSING DATA - ONLY FOR BENCHMARKING
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.6591e-05
+Stopped timer 1 at 0.416205 (8.81668 MB, 13 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 0.449041 seconds 
+Time1 = 0.416205 seconds (8.81668 MB, 13 rounds)
+Data sent = 8.81668 MB in ~13 rounds (party 0 only; use '-v' for more details)
+Global data sent = 17.6334 MB (all parties)

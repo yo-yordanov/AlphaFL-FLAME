@@ -1,0 +1,125 @@
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 0 alpha_sa-10-500000 -F -pn 14598 -h localhost -N 2
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 1 alpha_sa-10-500000 -F -pn 14598 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.6713e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 9.26e-07
+Stopped timer 2 at 2.98971 (20.1928 MB, 12024 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.445e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 2.62597 (160.001 MB, 42 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.397e-06
+Stopped timer 4 at 0.357554 (8.0001 MB, 6 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 2.294e-06
+Stopped timer 5 at 0.00320432 (0.000128 MB, 5 rounds)
+Stopped timer 1 at 5.97666 (188.194 MB, 12077 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 6.14718 seconds 
+Time1 = 5.97666 seconds (188.194 MB, 12077 rounds)
+Time2 = 2.98971 seconds (20.1928 MB, 12024 rounds)
+Time3 = 2.62597 seconds (160.001 MB, 42 rounds)
+Time4 = 0.357554 seconds (8.0001 MB, 6 rounds)
+Time5 = 0.00320432 seconds (0.000128 MB, 5 rounds)
+Data sent = 188.194 MB in ~12077 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 376.388 MB (all parties)
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 0 alpha_sa-10-500000 -F -pn 11944 -h localhost -N 2
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 1 alpha_sa-10-500000 -F -pn 11944 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 4.5604e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 1.005e-06
+Stopped timer 2 at 2.99673 (20.1928 MB, 12024 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.531e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 2.63497 (160.001 MB, 42 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.946e-06
+Stopped timer 4 at 0.349619 (8.0001 MB, 6 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.878e-06
+Stopped timer 5 at 0.00324372 (0.000128 MB, 5 rounds)
+Stopped timer 1 at 5.98474 (188.194 MB, 12077 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 6.15695 seconds 
+Time1 = 5.98474 seconds (188.194 MB, 12077 rounds)
+Time2 = 2.99673 seconds (20.1928 MB, 12024 rounds)
+Time3 = 2.63497 seconds (160.001 MB, 42 rounds)
+Time4 = 0.349619 seconds (8.0001 MB, 6 rounds)
+Time5 = 0.00324372 seconds (0.000128 MB, 5 rounds)
+Data sent = 188.194 MB in ~12077 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 376.388 MB (all parties)
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 0 alpha_sa-10-500000 -F -pn 12543 -h localhost -N 2
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 1 alpha_sa-10-500000 -F -pn 12543 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.4855e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 1.161e-06
+Stopped timer 2 at 2.98415 (20.1928 MB, 12024 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.204e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 2.67215 (160.001 MB, 42 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.111e-06
+Stopped timer 4 at 0.378233 (8.0001 MB, 6 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.807e-06
+Stopped timer 5 at 0.00317846 (0.000128 MB, 5 rounds)
+Stopped timer 1 at 6.03789 (188.194 MB, 12077 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 6.19761 seconds 
+Time1 = 6.03789 seconds (188.194 MB, 12077 rounds)
+Time2 = 2.98415 seconds (20.1928 MB, 12024 rounds)
+Time3 = 2.67215 seconds (160.001 MB, 42 rounds)
+Time4 = 0.378233 seconds (8.0001 MB, 6 rounds)
+Time5 = 0.00317846 seconds (0.000128 MB, 5 rounds)
+Data sent = 188.194 MB in ~12077 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 376.388 MB (all parties)
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 0 alpha_sa-10-500000 -F -pn 13864 -h localhost -N 2
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 1 alpha_sa-10-500000 -F -pn 13864 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 4.8425e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 1.03e-06
+Stopped timer 2 at 2.98319 (20.1928 MB, 12024 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.158e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 2.61673 (160.001 MB, 42 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.182e-06
+Stopped timer 4 at 0.359092 (8.0001 MB, 6 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 2.169e-06
+Stopped timer 5 at 0.00317691 (0.000128 MB, 5 rounds)
+Stopped timer 1 at 5.96241 (188.194 MB, 12077 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 6.12585 seconds 
+Time1 = 5.96241 seconds (188.194 MB, 12077 rounds)
+Time2 = 2.98319 seconds (20.1928 MB, 12024 rounds)
+Time3 = 2.61673 seconds (160.001 MB, 42 rounds)
+Time4 = 0.359092 seconds (8.0001 MB, 6 rounds)
+Time5 = 0.00317691 seconds (0.000128 MB, 5 rounds)
+Data sent = 188.194 MB in ~12077 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 376.388 MB (all parties)
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 0 alpha_sa-10-500000 -F -pn 11713 -h localhost -N 2
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 1 alpha_sa-10-500000 -F -pn 11713 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.8347e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 1.023e-06
+Stopped timer 2 at 3.01534 (20.1928 MB, 12024 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.107e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 2.68296 (160.001 MB, 42 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.312e-06
+Stopped timer 4 at 0.360956 (8.0001 MB, 6 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 2.441e-06
+Stopped timer 5 at 0.00318227 (0.000128 MB, 5 rounds)
+Stopped timer 1 at 6.06265 (188.194 MB, 12077 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 6.23714 seconds 
+Time1 = 6.06265 seconds (188.194 MB, 12077 rounds)
+Time2 = 3.01534 seconds (20.1928 MB, 12024 rounds)
+Time3 = 2.68296 seconds (160.001 MB, 42 rounds)
+Time4 = 0.360956 seconds (8.0001 MB, 6 rounds)
+Time5 = 0.00318227 seconds (0.000128 MB, 5 rounds)
+Data sent = 188.194 MB in ~12077 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 376.388 MB (all parties)

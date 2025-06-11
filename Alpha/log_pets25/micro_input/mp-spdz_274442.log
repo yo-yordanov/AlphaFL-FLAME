@@ -1,0 +1,10 @@
+make: Nothing to be done for 'alpha'.
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 0 alpha_input_orig-1-274442-32-active -F -pn 10678 -h localhost -N 2
+Running /home/dai/alpha-fl/Scripts/../spdz2k-party.x 1 alpha_input_orig-1-274442-32-active -F -pn 10678 -h localhost -N 2
+Finish setup socket connections to SPDZ engines.
+Sent private inputs to each SPDZ engine.
+Total data 1124.11 MB
+MP-SPDZ
+Time = 2.38408 seconds 
+Time1 = 2.27879 seconds (0 MB, 0 rounds)
+Data sent = 0 MB in ~0 rounds (party 0 only; use '-v' for more details)

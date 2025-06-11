@@ -1,0 +1,32 @@
+nohup: ignoring input
+2024-10-13 04:57:29.832910: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2024-10-13 04:57:29.833005: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2024-10-13 04:57:29.833014: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-10-13 04:57:33.309933: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2024-10-13 04:57:33.310002: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+2024-10-13 04:57:33.310034: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (ml-tianxiang): /proc/driver/nvidia/version does not exist
+2024-10-13 04:57:33.310625: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2024-10-13 04:57:33.318758: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2999995000 Hz
+2024-10-13 04:57:33.321121: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4d85bf0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-10-13 04:57:33.321150: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using analysis framework at /home/dai/rofl-project-code/rofl_train_client/trainservice/../../../attacks_on_federated_learning
+Config(environment=Environment(num_clients=4, num_selected_clients=4, num_malicious_clients=0, experiment_name='cifar10_lenet5', num_selected_malicious_clients=None, malicious_client_indices=None, attack_frequency=None, attacker_full_dataset=False, attacker_full_knowledge=False, load_model=None, ignore_malicious_update=False, print_every=1, print_batch_text=False, save_updates=False, save_norms=False, save_weight_distributions=False, save_history=False, save_model_at=[], save_weight_outside_bound=None, print_backdoor_eval=False, seed=0, use_config_dir=False, limit_tf_gpu_mem_mb=None), server=Server(num_rounds=1, num_test_batches=1, federated_dropout=None, aggregator={'name': 'FedAvg'}, global_learning_rate=1.0, intrinsic_dimension=1000, gaussian_noise=0.0), client=ClientConfig(model_name='lenet5_cifar', benign_training=TrainingConfig(num_epochs=0, batch_size=64, learning_rate=0.01, decay=None, optimizer='SGD', regularization_rate=None), quantization=Quantization(type='probabilistic', bits=8, frac=7), malicious=None, optimized_training=True, gaussian_noise=None, clip=None, model_weight_regularization=None, debug_client_training=False, disable_bn=False), dataset=Dataset(dataset='cifar10', data_distribution='IID', number_of_samples=-1, augment_data=False, normalize_mnist_data=False), hyperparameters=None)
+2024-10-13 04:57:39,908 - root - INFO - Training round 0
+1 0.0078125
+2024-10-13 04:57:39,920 - root - INFO - Train accuracy 0.0
+2024-10-13 04:57:39,920 - root - INFO - Done training round 0
+0.0
+2024-10-13 04:57:39,954 - root - INFO - Training round 0
+1 0.0078125
+2024-10-13 04:57:39,960 - root - INFO - Train accuracy 0.0
+2024-10-13 04:57:39,960 - root - INFO - Done training round 0
+0.0
+2024-10-13 04:57:39,993 - root - INFO - Training round 0
+1 0.0078125
+2024-10-13 04:57:39,999 - root - INFO - Train accuracy 0.0
+2024-10-13 04:57:39,999 - root - INFO - Done training round 0
+0.0
+2024-10-13 04:57:40,030 - root - INFO - Training round 0
+1 0.0078125
+2024-10-13 04:57:40,036 - root - INFO - Train accuracy 0.0
+2024-10-13 04:57:40,036 - root - INFO - Done training round 0

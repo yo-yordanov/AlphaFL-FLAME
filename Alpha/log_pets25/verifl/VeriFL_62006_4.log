@@ -1,0 +1,385 @@
+-------------------- Parameters --------------------
+logR: 24
+d: 62006
+t: 2
+N: 4
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 3023 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2877 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2856 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2860 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 4
+[Epoch 0]: Round 2 done
+    - U3 size: 4
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 2905 ms
+    - Average round 2 (MaskedInputCollection): 5 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 26 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 4 ms
+    - Average round 3 (Unmasking): 5 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 0.265625 KBytes
+    - Message sent in round 1 (ShareMetadata): 0.4375 KBytes
+    - Message received in round 2 (MaskedInputCollection): 0.498046875 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 302.765625 KBytes
+    - Message received in round 3 (Unmasking): 0.0078125 KBytes
+    - Message sent in round 3 (Unmasking): 0.140625 KBytes
+    - Epoch result received: 302.763671875 KBytes
+    - Total: 606.9453125 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 4
+Verification Round 0 done
+    - V1 size: 4
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 4
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 2861 ms
+    - Amortized verification time: 2861 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 0.265625 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 0.333984375 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 62006
+t: 2
+N: 4
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2878 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2877 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2874 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2877 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 4
+[Epoch 0]: Round 2 done
+    - U3 size: 4
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 2878 ms
+    - Average round 2 (MaskedInputCollection): 5 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 26 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 4 ms
+    - Average round 3 (Unmasking): 5 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 0.265625 KBytes
+    - Message sent in round 1 (ShareMetadata): 0.4375 KBytes
+    - Message received in round 2 (MaskedInputCollection): 0.498046875 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 302.765625 KBytes
+    - Message received in round 3 (Unmasking): 0.0078125 KBytes
+    - Message sent in round 3 (Unmasking): 0.140625 KBytes
+    - Epoch result received: 302.763671875 KBytes
+    - Total: 606.9453125 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 4
+Verification Round 0 done
+    - V1 size: 4
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 4
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 2873 ms
+    - Amortized verification time: 2873 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 0.265625 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 0.333984375 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 62006
+t: 2
+N: 4
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2870 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2870 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2874 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2876 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 4
+[Epoch 0]: Round 2 done
+    - U3 size: 4
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 2873 ms
+    - Average round 2 (MaskedInputCollection): 5 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 26 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 4 ms
+    - Average round 3 (Unmasking): 5 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 0.265625 KBytes
+    - Message sent in round 1 (ShareMetadata): 0.4375 KBytes
+    - Message received in round 2 (MaskedInputCollection): 0.498046875 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 302.765625 KBytes
+    - Message received in round 3 (Unmasking): 0.0078125 KBytes
+    - Message sent in round 3 (Unmasking): 0.140625 KBytes
+    - Epoch result received: 302.763671875 KBytes
+    - Total: 606.9453125 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 4
+Verification Round 0 done
+    - V1 size: 4
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 4
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 2860 ms
+    - Amortized verification time: 2860 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 0.265625 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 0.333984375 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 62006
+t: 2
+N: 4
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2848 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2850 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2850 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2854 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 4
+[Epoch 0]: Round 2 done
+    - U3 size: 4
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 2851 ms
+    - Average round 2 (MaskedInputCollection): 5 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 26 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 4 ms
+    - Average round 3 (Unmasking): 5 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 0.265625 KBytes
+    - Message sent in round 1 (ShareMetadata): 0.4375 KBytes
+    - Message received in round 2 (MaskedInputCollection): 0.498046875 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 302.765625 KBytes
+    - Message received in round 3 (Unmasking): 0.0078125 KBytes
+    - Message sent in round 3 (Unmasking): 0.140625 KBytes
+    - Epoch result received: 302.763671875 KBytes
+    - Total: 606.9453125 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 4
+Verification Round 0 done
+    - V1 size: 4
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 4
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 2844 ms
+    - Amortized verification time: 2844 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 0.265625 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 0.333984375 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 62006
+t: 2
+N: 4
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2854 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2848 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2852 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 2853 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 4
+[Epoch 0]: Round 2 done
+    - U3 size: 4
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 2852 ms
+    - Average round 2 (MaskedInputCollection): 5 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 26 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 4 ms
+    - Average round 3 (Unmasking): 6 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 0.265625 KBytes
+    - Message sent in round 1 (ShareMetadata): 0.4375 KBytes
+    - Message received in round 2 (MaskedInputCollection): 0.498046875 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 302.765625 KBytes
+    - Message received in round 3 (Unmasking): 0.0078125 KBytes
+    - Message sent in round 3 (Unmasking): 0.140625 KBytes
+    - Epoch result received: 302.763671875 KBytes
+    - Total: 606.9453125 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 4
+Verification Round 0 done
+    - V1 size: 4
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 4
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 2844 ms
+    - Amortized verification time: 2844 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 0.265625 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 0.333984375 KBytes

@@ -1,0 +1,26 @@
+# ./Fake-Offline.x 2 -Z 64 -S 64 -e 64
+# ./compile.py -Y -O -I -l -R 64 alpha_select_orig.mpc 10 active
+# Scripts/spdz2k.sh alpha_select_orig-10-active -F
+# ./compile.py -Y -O -I -l -R 64 alpha_select_orig.mpc 10 passive
+# Scripts/semi2k.sh alpha_select_orig-10-passive -F
+
+import random
+
+n_inputs = int(program.args[1]) if len(program.args) > 1 else 10
+active = len(program.args) > 2 and program.args[2] == "active"
+
+x = sint.get_random(size=n_inputs)
+sb = sbits.get_type(n_inputs)()
+sb.load_int(random.getrandbits(n_inputs))
+
+## MP-SPDZ Select
+
+start_timer(1)
+s = sintbit.conv(sb)
+y = s.if_else(x, 0)
+if active:
+    check_point()
+stop_timer(1)
+# print_ln("Time x = %s", x.reveal())
+# print_ln("Time s = %s", s.reveal())
+# print_ln("Time y = %s", y.reveal())

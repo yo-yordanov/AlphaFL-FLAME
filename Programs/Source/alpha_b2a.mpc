@@ -1,0 +1,111 @@
+# ./Fake-Offline.x 2 -Z 64 -S 64 -e 32,64
+# ./compile.py -Y -O -I -l -R 64 alpha_b2a.mpc
+# Scripts/spdz2k.sh alpha_b2a -F
+
+n_clients, n_inputs = 4, 817872 #62006
+N = n_clients * n_inputs
+N_BITS = 32
+N_THREADS = 8
+
+input_sbv = sbitvec([sbits.get_type(N_BITS)(1)] * N)
+start_timer(1)
+x = sint(input_sbv)
+stop_timer(1)
+
+input_sbv = sbits.get_type(N * N_BITS)(0)
+xbm = sint.Matrix(N, N_BITS)
+start_timer(2)
+start_timer(21)
+xb = sint(input_sbv)
+stop_timer(21)
+start_timer(22)
+xbm.assign_vector(xb)
+@map_sum_simple(N_THREADS, N_BITS, sint, N)
+def sum_rows_x1(i):
+    return xbm.get_column(i) << i
+x = sum_rows_x1()
+stop_timer(22)
+stop_timer(2)
+
+input_sbv = sbits.get_type(N * N_BITS)(0)
+xbm = sint.Matrix(N, N_BITS)
+pow2 = cint([2**i for i in range(N_BITS)])
+pow2m = cint.Matrix(N_BITS, 1)
+pow2m.assign_vector(pow2)
+start_timer(3)
+start_timer(31)
+xb = sint(input_sbv)
+stop_timer(31)
+start_timer(32)
+xbm.assign_vector(xb)
+xm = xbm.dot(pow2m, n_threads=N_THREADS)
+stop_timer(32)
+stop_timer(3)
+
+xbt = sint.Tensor([n_clients, n_inputs, N_BITS])
+xm = sint.Matrix(n_clients, n_inputs)
+start_timer(4)
+start_timer(41)
+@for_range_multithread(N_THREADS, 1, n_clients)
+def _(j):
+    xb = sint(sbits.get_type(n_inputs * N_BITS)(0))
+    xbt.assign_part_vector(xb, j)
+stop_timer(41)
+start_timer(42)
+@for_range_multithread(N_THREADS, 1, n_clients)
+def _(j):
+    xa = sint.Array(n_inputs)
+    xa.assign_all(0)
+    @for_range_opt(N_BITS)
+    def _(i):
+        xa[:] += xbt[j].get_column(i) << i
+    xm.assign_part_vector(xa.get_vector(), j)
+stop_timer(42)
+stop_timer(4)
+
+xbt = sint.Tensor([n_clients, n_inputs, N_BITS])
+xm = sint.Matrix(n_clients, n_inputs)
+xm.assign_all(0)
+sb32t = sbits.get_type(n_inputs * N_BITS)
+start_timer(5)
+@for_range_opt_multithread(N_THREADS, n_clients)
+def _(j):
+    xb = sint(sb32t(0))
+    xbt.assign_part_vector(xb, j)
+    @for_range_opt(N_BITS)
+    def _(i):
+        xm[j][:] += xbt[j].get_column(i) << i
+stop_timer(5)
+
+n_inputs = 2048
+while N % n_inputs != 0: n_inputs += 1
+n_clients = int(N / n_inputs)
+xbt = sint.Tensor([n_clients, n_inputs, N_BITS])
+xm = sint.Matrix(n_clients, n_inputs)
+xm.assign_all(0)
+sb32t = sbits.get_type(n_inputs * N_BITS)
+start_timer(6)
+start_timer(61)
+@for_range_opt_multithread(24, n_clients)
+def _(j):
+    xb = sintbit(sb32t(0))
+    xbt.assign_part_vector(xb, j)
+stop_timer(61)
+dabit_a = MemValue(sintbit(0, n_inputs * N_BITS))
+dabit_b = MemValue(sb32t(0))
+input_b = MemValue(sb32t(0))
+start_timer(62)
+@for_range_opt_multithread(24, n_clients)
+def _(j):
+    c = (input_b + dabit_b).reveal().to_regint_by_bit()
+    input_a = c + dabit_a - 2 * c * dabit_a
+    xbt.assign_part_vector(input_a, j)
+stop_timer(62)
+start_timer(69)
+@for_range_opt_multithread(24, n_clients)
+def _(j):
+    @for_range_opt(N_BITS)
+    def _(i):
+        xm[j][:] += xbt[j].get_column(i) << i
+stop_timer(69)
+stop_timer(6)

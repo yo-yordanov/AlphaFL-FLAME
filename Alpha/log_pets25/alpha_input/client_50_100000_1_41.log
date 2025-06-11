@@ -1,0 +1,8 @@
+vOLE Send: 55.4472 seconds, 3225.6 MB
+ml-tianxiang : Send error - 1  : Connection reset by peer
+Binding to socket on ml-tianxiang:10042 failed (Address already in use), trying again in a second ...
+Binding to socket on ml-tianxiang:10042 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+vOLE Send: 55.7572 seconds, 3225.6 MB
+ml-tianxiang : Send error - 1  : Connection reset by peer
+ml-tianxiang : Send error - 1  : Connection reset by peer

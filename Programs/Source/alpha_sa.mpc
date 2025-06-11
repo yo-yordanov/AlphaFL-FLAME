@@ -1,0 +1,87 @@
+# ./Fake-Offline.x 2 -Z 64 -S 64 -e 64,32
+# ./compile.py -Y -O -I -l -R 64 alpha_sa.mpc
+# Scripts/spdz2k.sh alpha_sa -F
+
+N_BITS = 32
+N_THREADS_LOW = 8
+N_THREADS_HIGH = 24
+BETA_2 = 2**32 - 1
+
+n_clients = int(program.args[1]) if len(program.args) > 1 else int(10)
+n_inputs = int(program.args[2]) if len(program.args) > 2 else int(1000)
+N = n_clients * n_inputs
+n_x, n_y = N_THREADS_LOW, 2048
+while N % n_y != 0: n_y += 1
+n_x = int(N / n_y)
+
+# enable square correlations
+program.use_square(True)
+
+# helpers for Si-Select
+_, player_ids = sintbit.read_from_file(0, 1)
+player_id = MemValue(player_ids[0])
+a = MemValue(sint(1))
+b = MemValue(sintbit(1))
+c = MemValue(sint(1))
+
+# init
+sb32t = sbits.get_type(n_y * N_BITS)
+xbt = sint.Tensor([n_x, n_y, N_BITS])
+xm = sint.Matrix(n_x, n_y)
+xm.assign_all(0)
+x2m = sint.Matrix(n_clients, n_inputs)
+fm = cint.Matrix(n_clients, n_inputs)
+zm = sint.Matrix(n_clients, n_inputs)
+
+# inputs and dabits
+dabit_a = MemValue(sintbit(0, n_y * N_BITS))
+dabit_b = MemValue(sb32t(0))
+input_b = MemValue(sb32t(0))
+
+# start
+start_timer(1)
+
+# B2A
+start_timer(2)
+@for_range_opt_multithread(N_THREADS_HIGH, n_x)
+def _(j):
+    c = (input_b + dabit_b).reveal().to_regint_by_bit()
+    input_a = c + dabit_a - 2 * c * dabit_a
+    xbt.assign_part_vector(input_a, j)
+    @for_range_opt(N_BITS)
+    def _(i):
+        xm[j][:] += xbt[j].get_column(i) << i
+x = xm.get_vector()
+stop_timer(2)
+# L2-Norm
+start_timer(3)
+x2 = x.square()
+x2m.assign_vector(x2)
+@map_sum_simple(N_THREADS_HIGH, n_inputs, sint, n_clients)
+def sum_rows(i):
+    return x2m.get_column(i)
+l2 = sum_rows()
+s = l2 < BETA_2
+e = (x - a).reveal()
+f_original = (b - s).reveal()
+@for_range_opt(n_inputs)
+def _(i):
+    fm.set_column(i, f_original)
+f_expanded = fm.get_vector()
+z = f_expanded.if_else(e * player_id + a - c - e * b, c + e * b)
+zm.assign_vector(z)
+stop_timer(3)
+# Aggregation
+start_timer(4)
+@map_sum_simple(N_THREADS_LOW, n_clients, sint, n_inputs)
+def sum_cols(i):
+    return zm[i]
+result = sum_cols().reveal()
+stop_timer(4)
+# Verification
+start_timer(5)
+check_point()
+stop_timer(5)
+
+# stop
+stop_timer(1)

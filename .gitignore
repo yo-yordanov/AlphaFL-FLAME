@@ -1,0 +1,14 @@
+*.o
+*.d
+*.x
+*.so
+*.bc
+*.sch
+*.pyc
+
+Player-Data/
+Persistence/
+.vscode/
+deps/
+local/
+logs/

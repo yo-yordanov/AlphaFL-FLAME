@@ -1,0 +1,24 @@
+vOLE Recv: 22.2027 seconds, 3225.6 MB
+vOLE Recv: 41.2976 seconds, 3225.6 MB
+vOLE Recv: 45.8067 seconds, 3225.6 MB
+vOLE Recv: 47.7929 seconds, 3225.6 MB
+vOLE Recv: 49.0136 seconds, 3225.6 MB
+vOLE Recv: 49.3122 seconds, 3225.6 MB
+vOLE Recv: 49.7926 seconds, 3225.6 MB
+vOLE Recv: 50.0301 seconds, 3225.6 MB
+vOLE Recv: 50.1041 seconds, 3225.6 MB
+vOLE Recv: 50.2797 seconds, 3225.6 MB
+vOLE Recv: 50.5267 seconds, 3225.6 MB
+vOLE Recv: 50.8779 seconds, 3225.6 MB
+vOLE Recv: 51.3478 seconds, 3225.6 MB
+vOLE Recv: 51.369 seconds, 3225.6 MB
+vOLE Recv: 51.4626 seconds, 3225.6 MB
+vOLE Recv: 51.6925 seconds, 3225.6 MB
+terminate called after throwing an instance of 'closed_connection'
+terminate called recursively
+terminate called after throwing an instance of 'closed_connection'
+terminate called recursively
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+vOLE Recv: 48.9952 seconds, 3225.6 MB
+terminate called after throwing an instance of 'closed_connection'
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.

@@ -1,0 +1,60 @@
+environment:
+    experiment_name: shakespeare_lstm
+    num_clients: 4
+    num_malicious_clients: 0
+    num_selected_clients: 4
+    use_config_dir: false
+    print_every: 1
+
+server:
+    aggregator:
+        name: FedAvg
+    global_learning_rate: -1 # ??????
+    num_rounds: 1
+    num_test_batches: 20
+
+client:
+    benign_training:
+        batch_size: 64
+        learning_rate: 0.5
+        num_epochs: 0
+        optimizer: SGD
+        decay:
+            type: boundaries
+            decay_boundaries: [2, 4]
+            decay_values: [1.0, 0.1, 0.01]
+            step_epochs: true
+    debug_client_training: false
+
+    optimized_training: true
+    #clip:
+    #    type: l2
+    #    value: 0.01
+    model_name: stacked_lstm
+    model_init_path: "/home/dai/rofl-project-code/models/stacked_lstm.txt"
+    quantization:
+        type: probabilistic
+        bits: 16
+        frac: 7
+
+crypto:
+  enc_type: l2 #l2, Range, Plain
+  value_range: 16
+  n_partition: 1
+  l2_value_range: 16
+  check_percentage: 1.0 # 0.0-1.0 for Range i.e., round(num_rangeproofs * check_percentage)
+  fp_bits: 16
+  fp_frac: 7
+
+dataset:
+    augment_data: false
+    data_distribution: IID
+    dataset: shakespeare
+
+job:
+    cpu_cores: 20
+    cpu_mem_per_core: 4096
+    use_gpu: 1
+    gpu_memory_min: 10240
+    minutes: 1440 # Max. minutes to run. Leonhard has 240 and 1440 queues
+    

@@ -1,0 +1,24 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.26s
+     Running `target/release/server-baseline-mp -g 500000 -n 30 -m 'localhost:7777' -b -p 6667 -s 16 -i 32`
+  [2m2025-02-26T10:16:52.811650Z[0m [32m INFO[0m [1;32mbridge::mpc_conn[0m[32m: [32mconnection established: 127.0.0.1[0m
+    [2;3mat[0m bridge/src/mpc_conn.rs:118
+
+Start:   Receive Input Sharing and SNIP Proof from Client
+Client messages size: 30x(113, 262217833)
+End:     Receive Input Sharing and SNIP Proof from Client ..........................5.706s
+Start:   Server prepare verification messages
+  [2m2025-02-26T10:16:58.517770Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_alice length: 262217833[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:87
+
+  [2m2025-02-26T10:16:58.517782Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32mmsgs_as_bob length: 113[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:88
+
+  [2m2025-02-26T10:16:58.517784Z[0m [32m INFO[0m [1;32mserver_baseline_mp::server[0m[32m: [32musing batch size: 1024[0m
+    [2;3mat[0m server-baseline-mp/src/server.rs:89
+
+End:     Server prepare verification messages ......................................77.290s
+Start:   Server Exchange verification messages

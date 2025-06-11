@@ -1,0 +1,2 @@
+a, d = sint.get_random_square()
+check_point()

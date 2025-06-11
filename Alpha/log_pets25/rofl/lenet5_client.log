@@ -1,0 +1,29 @@
+nohup: ignoring input
+Client 1 connects to trainer at port 50016
+Client 2 connects to trainer at port 50016
+Client 3 connects to trainer at port 50016
+Client 0 connects to trainer at port 50016
+[2024-10-13 04:57:39.843185 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:195] Client 2 starts training model
+[2024-10-13 04:57:39.843405 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:195] Client 0 starts training model
+[2024-10-13 04:57:39.843491 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:195] Client 3 starts training model
+[2024-10-13 04:57:39.843583 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:201] Client 2 registers to train model 1
+[2024-10-13 04:57:39.843653 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:201] Client 0 registers to train model 1
+[2024-10-13 04:57:39.843713 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:201] Client 3 registers to train model 1
+[2024-10-13 04:57:39.843761 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:195] Client 1 starts training model
+[2024-10-13 04:57:39.844009 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:201] Client 1 registers to train model 1
+[2024-10-13 04:57:39.847721 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:227] Client 1 starts protocol loop for model 1
+[2024-10-13 04:57:39.847783 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:227] Client 3 starts protocol loop for model 1
+[2024-10-13 04:57:39.847860 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:227] Client 2 starts protocol loop for model 1
+[2024-10-13 04:57:39.877174 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:241] Client 1 receives model parameters for round 0
+[2024-10-13 04:57:39.877228 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:241] Client 2 receives model parameters for round 0
+[2024-10-13 04:57:39.877323 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:241] Client 3 receives model parameters for round 0
+[2024-10-13 04:57:39.877740 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:227] Client 0 starts protocol loop for model 1
+[2024-10-13 04:57:39.877834 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:241] Client 0 receives model parameters for round 0
+[2024-10-13 05:26:27.238678 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:276] Client 3 finished training for round 0
+[2024-10-13 05:26:54.881776 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:276] Client 2 finished training for round 0
+[2024-10-13 05:27:07.249735 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:276] Client 1 finished training for round 0
+[2024-10-13 05:27:20.596252 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:276] Client 0 finished training for round 0
+[2024-10-13 05:27:35.005470 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:297] Client 1 terminates, server done message received
+[2024-10-13 05:27:35.005598 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:297] Client 3 terminates, server done message received
+[2024-10-13 05:27:35.005675 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:297] Client 2 terminates, server done message received
+[2024-10-13 05:27:35.005781 +00:00] INFO [/home/dai/rofl-project-code/rofl_service/src/flserver/client.rs:297] Client 0 terminates, server done message received

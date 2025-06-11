@@ -1,0 +1,1 @@
+sintbit.write_to_file(sintbit(1))

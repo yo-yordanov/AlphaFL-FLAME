@@ -1,0 +1,17 @@
+terminate called after throwing an instance of 'closed_connection'
+
+Server 0 Input Commitment Honest:
+Total Time = 37.8573 seconds
+Receiving directly 0.0016 MB in 2 rounds, taking 36.5254 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds
+
+Server 0 Input Commitment Honest:
+Total Time = 30.8229 seconds
+Receiving directly 0.0016 MB in 2 rounds, taking 29.4764 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds
+ml-tianxiang : Receiving error - 1 : Connection reset by peer
+
+Server 0 Input Commitment Honest:
+Total Time = 26.3728 seconds
+Receiving directly 0.0016 MB in 2 rounds, taking 25.0484 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds

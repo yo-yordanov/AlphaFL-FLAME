@@ -1,0 +1,515 @@
+-------------------- Parameters --------------------
+logR: 24
+d: 100000
+t: 15
+N: 30
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4603 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4604 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4607 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4608 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4607 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4605 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4612 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4606 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4626 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4618 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4610 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4615 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4607 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4621 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4621 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4612 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4614 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4613 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4610 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4607 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4607 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4613 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4603 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4608 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4614 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4615 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4607 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4604 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4604 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4616 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 30
+[Epoch 0]: Round 2 done
+    - U3 size: 30
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 4616 ms
+    - Average round 2 (MaskedInputCollection): 61 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 43 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 54 ms
+    - Average round 3 (Unmasking): 47 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 1.9921875 KBytes
+    - Message sent in round 1 (ShareMetadata): 3.94140625 KBytes
+    - Message received in round 2 (MaskedInputCollection): 4.814453125 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 488.283203125 KBytes
+    - Message received in round 3 (Unmasking): 0.05859375 KBytes
+    - Message sent in round 3 (Unmasking): 1.0546875 KBytes
+    - Epoch result received: 488.28125 KBytes
+    - Total: 988.4921875 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 30
+Verification Round 0 done
+    - V1 size: 30
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 30
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 4611 ms
+    - Amortized verification time: 4611 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 1.9921875 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 2.060546875 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 100000
+t: 15
+N: 30
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4626 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4637 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4642 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4636 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4632 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4628 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4627 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4632 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4700 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4627 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4637 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4629 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4639 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4627 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4643 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4635 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4636 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4625 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4628 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4639 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4635 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 30
+[Epoch 0]: Round 2 done
+    - U3 size: 30
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 4640 ms
+    - Average round 2 (MaskedInputCollection): 61 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 43 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 53 ms
+    - Average round 3 (Unmasking): 47 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 1.9921875 KBytes
+    - Message sent in round 1 (ShareMetadata): 3.94140625 KBytes
+    - Message received in round 2 (MaskedInputCollection): 4.814453125 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 488.283203125 KBytes
+    - Message received in round 3 (Unmasking): 0.05859375 KBytes
+    - Message sent in round 3 (Unmasking): 1.0546875 KBytes
+    - Epoch result received: 488.28125 KBytes
+    - Total: 988.4921875 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 30
+Verification Round 0 done
+    - V1 size: 30
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 30
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 4618 ms
+    - Amortized verification time: 4618 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 1.9921875 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 2.060546875 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 100000
+t: 15
+N: 30
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4626 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4620 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4629 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4625 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4628 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4627 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4638 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4628 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4637 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4632 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4639 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4637 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4624 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4641 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4632 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4638 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4626 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4640 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4621 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4634 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4638 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4640 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4622 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4614 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 30
+[Epoch 0]: Round 2 done
+    - U3 size: 30
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 4636 ms
+    - Average round 2 (MaskedInputCollection): 61 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 42 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 50 ms
+    - Average round 3 (Unmasking): 47 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 1.9921875 KBytes
+    - Message sent in round 1 (ShareMetadata): 3.94140625 KBytes
+    - Message received in round 2 (MaskedInputCollection): 4.814453125 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 488.283203125 KBytes
+    - Message received in round 3 (Unmasking): 0.05859375 KBytes
+    - Message sent in round 3 (Unmasking): 1.0546875 KBytes
+    - Epoch result received: 488.28125 KBytes
+    - Total: 988.4921875 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 30
+Verification Round 0 done
+    - V1 size: 30
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 30
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 4625 ms
+    - Amortized verification time: 4625 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 1.9921875 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 2.060546875 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 100000
+t: 15
+N: 30
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4637 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4638 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4637 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4621 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4640 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4624 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4633 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4632 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4635 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4639 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4633 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4629 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4642 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4687 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4638 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4624 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4645 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4633 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4630 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4635 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4628 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4619 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4606 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4609 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4638 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4631 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4629 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 30
+[Epoch 0]: Round 2 done
+    - U3 size: 30
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 4638 ms
+    - Average round 2 (MaskedInputCollection): 61 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 43 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 58 ms
+    - Average round 3 (Unmasking): 47 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 1.9921875 KBytes
+    - Message sent in round 1 (ShareMetadata): 3.94140625 KBytes
+    - Message received in round 2 (MaskedInputCollection): 4.814453125 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 488.283203125 KBytes
+    - Message received in round 3 (Unmasking): 0.05859375 KBytes
+    - Message sent in round 3 (Unmasking): 1.0546875 KBytes
+    - Epoch result received: 488.28125 KBytes
+    - Total: 988.4921875 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 30
+Verification Round 0 done
+    - V1 size: 30
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 30
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 4623 ms
+    - Amortized verification time: 4623 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 1.9921875 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 2.060546875 KBytes
+-------------------- Parameters --------------------
+logR: 24
+d: 100000
+t: 15
+N: 30
+batch: 1
+dropout:
+    null
+-------------------- Aggregation phase --------------------
+[Epoch 0]: Start
+[Epoch 0]: Round 0 done
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4598 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4594 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4596 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4593 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4596 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4594 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4591 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4599 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4597 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4596 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4596 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4596 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4598 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4593 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4594 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4594 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4591 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4598 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4593 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4598 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4595 ms
+    [c++]: Wall-clock time of verification part in Context::ShareMetadata: 4591 ms
+[Epoch 0]: Round 1 done
+    - U2 size: 30
+[Epoch 0]: Round 2 done
+    - U3 size: 30
+[Epoch 0]: Round 3 done
+[Epoch 0]: Result done
+
+-------------------- Computation Overhead in Epoch 0 --------------------
+Client timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 4600 ms
+    - Average round 2 (MaskedInputCollection): 61 ms
+    - Average round 3 (Unmasking): 0 ms
+    - Average receive result: 42 ms
+Server timer:
+    - Average round 0 (AdvertiseKeys): 0 ms
+    - Average round 1 (ShareMetadata): 0 ms
+    - Average round 2 (MaskedInputCollection): 50 ms
+    - Average round 3 (Unmasking): 46 ms
+
+-------------------- Communication Overhead in Epoch 0 --------------------
+Client side:
+    - Message sent in round 0 (AdvertiseKeys): 0.06640625 KBytes
+    - Message received in round 1 (ShareMetadata): 1.9921875 KBytes
+    - Message sent in round 1 (ShareMetadata): 3.94140625 KBytes
+    - Message received in round 2 (MaskedInputCollection): 4.814453125 KBytes
+    - Message sent in round 2 (MaskedInputCollection): 488.283203125 KBytes
+    - Message received in round 3 (Unmasking): 0.05859375 KBytes
+    - Message sent in round 3 (Unmasking): 1.0546875 KBytes
+    - Epoch result received: 488.28125 KBytes
+    - Total: 988.4921875 KBytes
+
+-------------------- Verification phase --------------------
+    - U4 size in last epoch: 30
+Verification Round 0 done
+    - V1 size: 30
+    - U4\V1: []
+    - U4\V1 size: 0
+Verification Round 1 done
+    - V2 size: 30
+    - recons_decom_str length: 0 bytes
+Verification Round 2 done
+    - Verification passed: true
+
+-------------------- Computation Overhead in Verification Phase --------------------
+Client timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Average verification round 2 (BatchChecking): 4587 ms
+    - Amortized verification time: 4587 ms
+Server timer:
+    - Average verification round 0 (Decommitting): 0 ms
+    - Average verification round 1 (DroppedDecommitting): 0 ms
+    - Amortized verification time: 0 ms
+
+-------------------- Communication Overhead in Verification Phase --------------------
+Client side:
+    - Message sent in verification round 0 (Decommitting): 0.06640625 KBytes
+    - Message received in verification round 1 (DroppedDecommitting): 1.9921875 KBytes
+    - Message sent in verification round 1 (DroppedDecommitting): 0.001953125 KBytes
+    - Message received in verification round 2 (BatchChecking): 0.0 KBytes
+    - Total: 2.060546875 KBytes

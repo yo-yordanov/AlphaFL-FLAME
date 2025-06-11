@@ -1,0 +1,22 @@
+
+Server 1 Input Commitment DisHonest:
+Total Time = 135.146 seconds
+Receiving directly 3840 MB in 12 rounds, taking 1275.71 seconds
+Sending directly 0.00032 MB in 2 rounds, taking 0 seconds
+
+Server 1 Input Commitment DisHonest:
+Total Time = 133.746 seconds
+Receiving directly 3840 MB in 12 rounds, taking 1232.1 seconds
+Sending directly 0.00032 MB in 2 rounds, taking 0 seconds
+Binding to socket on ml-tianxiang:10000 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+
+Server 1 Input Commitment DisHonest:
+Total Time = 136.189 seconds
+Receiving directly 3840 MB in 12 rounds, taking 1264.19 seconds
+Sending directly 0.00032 MB in 2 rounds, taking 0 seconds
+
+Server 1 Input Commitment DisHonest:
+Total Time = 134.887 seconds
+Receiving directly 3840 MB in 12 rounds, taking 1261.89 seconds
+Sending directly 0.00032 MB in 2 rounds, taking 0 seconds

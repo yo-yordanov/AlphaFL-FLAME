@@ -1,0 +1,21 @@
+
+Server 1 Input Commitment Honest:
+Total Time = 9.50427 seconds
+Receiving directly 11520 MB in 52 rounds, taking 400.945 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds
+terminate called after throwing an instance of 'closed_connection'
+
+Server 1 Input Commitment Honest:
+Total Time = 9.43805 seconds
+Receiving directly 11520 MB in 52 rounds, taking 387.119 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds
+
+Server 1 Input Commitment Honest:
+Total Time = 9.49033 seconds
+Receiving directly 11520 MB in 52 rounds, taking 390.05 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds
+
+Server 1 Input Commitment Honest:
+Total Time = 9.43418 seconds
+Receiving directly 11520 MB in 52 rounds, taking 402.542 seconds
+Sending directly 0.0016 MB in 2 rounds, taking 0 seconds

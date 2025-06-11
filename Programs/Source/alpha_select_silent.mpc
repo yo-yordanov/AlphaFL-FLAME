@@ -1,0 +1,40 @@
+# ./Fake-Offline.x 2 -Z 64 -S 64 -e 64
+# ./compile.py -Y -O -I -l -R 64 alpha_select_silent.mpc 10 active
+# Scripts/spdz2k.sh alpha_select_silent-10-active -F
+# ./compile.py -Y -O -I -l -R 64 alpha_select_silent.mpc 10 passive
+# Scripts/semi2k.sh alpha_select_silent-10-passive -F
+
+import random
+
+n_inputs = int(program.args[1]) if len(program.args) > 1 else 10
+active = len(program.args) > 2 and program.args[2] == "active"
+
+x = sint.get_random(size=n_inputs)
+s = sbits.get_type(n_inputs)()
+s.load_int(random.getrandbits(n_inputs))
+
+## AlphaFL Silent Select
+
+# To create player_id as (0,1):
+# 1. write sintbit(1) to file: sintbit.write_to_file(sintbit(1))
+# 2. Swap data in Persistence/Transactions-P
+# 3. Swap MAC Key in Player-Data/2-Z64,64-64/Player-
+_, player_ids = sintbit.read_from_file(0, 1)
+player_id = player_ids[0]
+
+a = sint(1)
+b_a = sintbit(1)
+b_b = sbits.get_type(n_inputs)(-1)
+c = sint(1)
+
+start_timer(2)
+e = (x - a).reveal()
+f_b = (s ^ b_b).reveal()
+f_a = f_b.to_regint_by_bit()
+z = f_a.if_else(e * player_id + a - c - e * b_a, c + e * b_a)
+if active:
+    check_point()
+stop_timer(2)
+# print_ln("Time x = %s", x.reveal())
+# s.reveal().print_reg(desc="s")
+# print_ln("Time z = %s", z.reveal())

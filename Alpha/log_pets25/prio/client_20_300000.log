@@ -1,0 +1,101 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.24s
+     Running `target/release/client-baseline-mp -g 300000 -n 20 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-26T09:59:58.836436Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mNumber of clients: 20, Server address alice: localhost:6666, server address bob: localhost:6667 , log_level: INFO[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:28
+
+Start:   Preparing data and message
+End:     Preparing data and message ................................................31.469s
+  [2m2025-02-26T10:00:30.306339Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:35
+
+  [2m2025-02-26T10:00:30.348696Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAll clients connected![0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:43
+
+  [2m2025-02-26T10:00:30.348713Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mStarting all client instances[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:45
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-baseline-mp -g 300000 -n 20 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-26T16:07:42.382823Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mNumber of clients: 20, Server address alice: localhost:6666, server address bob: localhost:6667 , log_level: INFO[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:28
+
+Start:   Preparing data and message
+End:     Preparing data and message ................................................31.403s
+  [2m2025-02-26T16:08:13.786860Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:35
+
+  [2m2025-02-26T16:08:13.834303Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAll clients connected![0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:43
+
+  [2m2025-02-26T16:08:13.834333Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mStarting all client instances[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:45
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-baseline-mp -g 300000 -n 20 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-26T16:10:16.144533Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mNumber of clients: 20, Server address alice: localhost:6666, server address bob: localhost:6667 , log_level: INFO[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:28
+
+Start:   Preparing data and message
+End:     Preparing data and message ................................................31.393s
+  [2m2025-02-26T16:10:47.538478Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:35
+
+  [2m2025-02-26T16:10:47.593586Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAll clients connected![0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:43
+
+  [2m2025-02-26T16:10:47.593603Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mStarting all client instances[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:45
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-baseline-mp -g 300000 -n 20 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-26T16:12:49.929584Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mNumber of clients: 20, Server address alice: localhost:6666, server address bob: localhost:6667 , log_level: INFO[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:28
+
+Start:   Preparing data and message
+End:     Preparing data and message ................................................31.580s
+  [2m2025-02-26T16:13:21.510600Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:35
+
+  [2m2025-02-26T16:13:21.553458Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAll clients connected![0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:43
+
+  [2m2025-02-26T16:13:21.553477Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mStarting all client instances[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:45
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.24s
+     Running `target/release/client-baseline-mp -g 300000 -n 20 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-26T16:15:23.888319Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mNumber of clients: 20, Server address alice: localhost:6666, server address bob: localhost:6667 , log_level: INFO[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:28
+
+Start:   Preparing data and message
+End:     Preparing data and message ................................................31.281s
+  [2m2025-02-26T16:15:55.169519Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:35
+
+  [2m2025-02-26T16:15:55.215199Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mAll clients connected![0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:43
+
+  [2m2025-02-26T16:15:55.215220Z[0m [32m INFO[0m [1;32mclient_baseline_mp[0m[32m: [32mStarting all client instances[0m
+    [2;3mat[0m client-baseline-mp/src/main.rs:45
+

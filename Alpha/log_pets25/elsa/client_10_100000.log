@@ -1,0 +1,375 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   Compiling client-mp v0.1.0 (/home/dai/elsa/client-mp)
+    Finished release [optimized + debuginfo] target(s) in 6.96s
+     Running `target/release/client-mp -g 100000 -n 10 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T01:06:24.729809Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 10, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................2.795ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................491.374ms
+  [2m2025-02-22T01:06:25.224070Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T01:06:25.225529Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.327438Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.430421Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.532300Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.634217Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.737158Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.840115Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:25.942994Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.045956Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.148927Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.251911Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.354878Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.457820Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.560711Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.662709Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.764696Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.866694Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:26.969663Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.071606Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.173567Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.275614Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.377462Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.480531Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.582577Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.684394Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.787148Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.890041Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:27.992931Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.095876Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.198748Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.300795Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.403670Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.505494Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.607431Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.709339Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.812083Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:28.915028Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.017977Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.120914Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.223822Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.334889Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.437839Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.540797Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.643790Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.747620Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.849594Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:29.951621Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.053596Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.155565Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.258812Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.361872Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.464868Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.567838Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.670824Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.775636Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.877632Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:30.979620Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.081576Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.184815Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.287756Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.391451Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.495856Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.598846Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.702630Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.804676Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:31.906814Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.009864Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.112772Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.215899Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.318854Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.421743Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.524691Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.626677Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.729615Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.831650Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:32.933702Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.035728Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.137779Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.240682Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.343387Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.445387Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.548494Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.650660Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.753649Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.855660Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:33.957588Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.059518Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.161463Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.264367Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.367224Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.470153Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.573061Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.675972Z[0m [33m WARN[0m [1;33mbridge[0m[33m: [33mError connect to "localhost:6666": Connection refused (os error 111). Waiting to connect in 100ms[0m
+    [2;3mat[0m bridge/src/lib.rs:36
+
+  [2m2025-02-22T01:06:34.798904Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-mp -g 100000 -n 10 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T08:52:26.048743Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 10, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................2.854ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................558.450ms
+  [2m2025-02-22T08:52:26.610169Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T08:52:26.631567Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.22s
+     Running `target/release/client-mp -g 100000 -n 10 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T08:53:27.389434Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 10, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................3.303ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................489.387ms
+  [2m2025-02-22T08:53:27.882224Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T08:53:27.903395Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.22s
+     Running `target/release/client-mp -g 100000 -n 10 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T08:54:28.654656Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 10, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................3.156ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................499.286ms
+  [2m2025-02-22T08:54:29.157193Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T08:54:29.181788Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized + debuginfo] target(s) in 0.23s
+     Running `target/release/client-mp -g 100000 -n 10 -a 'localhost:6666' -b 'localhost:6667' -i 32`
+  [2m2025-02-22T08:55:29.962808Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mMP Client: num_clients: 10, Server address alice: localhost:6666, server address bob: localhost:6667, gsize: 100000, tracing_level: INFO[0m
+    [2;3mat[0m client-mp/src/main.rs:31
+
+Start:   Preparing Client Input
+End:     Preparing Client Input ....................................................3.352ms
+Start:   Preparing Client Message
+End:     Preparing Client Message ..................................................480.847ms
+  [2m2025-02-22T08:55:30.447100Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAttempting to connect to server[0m
+    [2;3mat[0m client-mp/src/main.rs:64
+
+  [2m2025-02-22T08:55:30.468625Z[0m [32m INFO[0m [1;32mclient_mp[0m[32m: [32mAll clients connected! Sending clients data...[0m
+    [2;3mat[0m client-mp/src/main.rs:72
+

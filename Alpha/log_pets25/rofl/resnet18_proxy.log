@@ -1,0 +1,33 @@
+nohup: ignoring input
+2024-10-12 19:36:23.447133: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2024-10-12 19:36:23.447220: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2024-10-12 19:36:23.447229: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2024-10-12 19:36:26.815204: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2024-10-12 19:36:26.815261: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+2024-10-12 19:36:26.815284: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (ml-tianxiang): /proc/driver/nvidia/version does not exist
+2024-10-12 19:36:26.815620: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2024-10-12 19:36:26.823229: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2999995000 Hz
+2024-10-12 19:36:26.825442: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x50da460 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2024-10-12 19:36:26.825469: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using analysis framework at /home/dai/rofl-project-code/rofl_train_client/trainservice/../../../attacks_on_federated_learning
+Config(environment=Environment(num_clients=4, num_selected_clients=4, num_malicious_clients=0, experiment_name='cifar10_resnet18', num_selected_malicious_clients=None, malicious_client_indices=None, attack_frequency=None, attacker_full_dataset=False, attacker_full_knowledge=False, load_model='/home/dai/fl-analysis/models/resnet18.h5', ignore_malicious_update=False, print_every=1, print_batch_text=False, save_updates=False, save_norms=False, save_weight_distributions=False, save_history=False, save_model_at=[], save_weight_outside_bound=None, print_backdoor_eval=False, seed=0, use_config_dir=False, limit_tf_gpu_mem_mb=None), server=Server(num_rounds=1, num_test_batches=1, federated_dropout=None, aggregator={'name': 'FedAvg'}, global_learning_rate=1.0, intrinsic_dimension=1000, gaussian_noise=0.0), client=ClientConfig(model_name='resnet18', benign_training=TrainingConfig(num_epochs=0, batch_size=64, learning_rate=0.01, decay=None, optimizer='SGD', regularization_rate=None), quantization=Quantization(type='probabilistic', bits=8, frac=7), malicious=None, optimized_training=True, gaussian_noise=None, clip=None, model_weight_regularization=None, debug_client_training=False, disable_bn=False), dataset=Dataset(dataset='cifar10', data_distribution='IID', number_of_samples=-1, augment_data=False, normalize_mnist_data=False), hyperparameters=None)
+2024-10-12 19:36:27,506 - tensorflow - WARNING - No training configuration found in save file: the model was *not* compiled. Compile it manually.
+2024-10-12 19:36:37,683 - root - INFO - Training round 0
+1 0.0078125
+2024-10-12 19:36:37,722 - root - INFO - Train accuracy 0.0
+2024-10-12 19:36:37,723 - root - INFO - Done training round 0
+0.0
+2024-10-12 19:36:37,869 - root - INFO - Training round 0
+1 0.0078125
+2024-10-12 19:36:37,906 - root - INFO - Train accuracy 0.0
+2024-10-12 19:36:37,906 - root - INFO - Done training round 0
+0.0
+2024-10-12 19:36:38,054 - root - INFO - Training round 0
+1 0.0078125
+2024-10-12 19:36:38,089 - root - INFO - Train accuracy 0.0
+2024-10-12 19:36:38,090 - root - INFO - Done training round 0
+0.0
+2024-10-12 19:36:38,232 - root - INFO - Training round 0
+1 0.0078125
+2024-10-12 19:36:38,267 - root - INFO - Train accuracy 0.0
+2024-10-12 19:36:38,267 - root - INFO - Done training round 0
