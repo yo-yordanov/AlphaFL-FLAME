@@ -1,0 +1,26 @@
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 alpha_sa-2-2000 -F -pn 10484 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 alpha_sa-2-2000 -F -pn 10484 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Got file missing error, will return -2. File missing : Persistence/Transactions-P0.data Binary_File_IO.read_from_file expects this file to exist.
+Starting timer 1 at 0 (0 MB, 0 rounds) after 3.709e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 7.61e-07
+Stopped timer 2 at 0.0150893 (0.016 MB, 2 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 1.162e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 0.00575339 (0.128639 MB, 42 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.122e-06
+Stopped timer 4 at 0.000983026 (0.032104 MB, 6 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 2.956e-06
+Stopped timer 5 at 0.000292412 (8.4e-05 MB, 3 rounds)
+Stopped timer 1 at 0.0221966 (0.176827 MB, 53 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 0.0353986 seconds 
+Time1 = 0.0221966 seconds (0.176827 MB, 53 rounds)
+Time2 = 0.0150893 seconds (0.016 MB, 2 rounds)
+Time3 = 0.00575339 seconds (0.128639 MB, 42 rounds)
+Time4 = 0.000983026 seconds (0.032104 MB, 6 rounds)
+Time5 = 0.000292412 seconds (8.4e-05 MB, 3 rounds)
+Data sent = 0.176827 MB in ~53 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 0.353654 MB (all parties)

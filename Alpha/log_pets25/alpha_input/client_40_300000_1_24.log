@@ -1,20 +1,13 @@
-vOLE Send: 333.956 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 338.718 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 341.725 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 342.457 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 330.348 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 337.57 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 338.647 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 340.988 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 325.049 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 329.077 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10025 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.

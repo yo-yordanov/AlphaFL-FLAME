@@ -1,20 +1,17 @@
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
 
 Client Input Commitment Honest:
-Total Time = 0.878562 seconds
+Total Time = 0.84491 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds
 
 Client Input Commitment Honest:
-Total Time = 0.94702 seconds
+Total Time = 1.02268 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds
 
 Client Input Commitment Honest:
-Total Time = 0.710472 seconds
+Total Time = 0.879544 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds
 
 Client Input Commitment Honest:
-Total Time = 0.927206 seconds
-Sending directly 76.8 MB in 1 rounds, taking 0 seconds
-
-Client Input Commitment Honest:
-Total Time = 0.925197 seconds
+Total Time = 0.92576 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds

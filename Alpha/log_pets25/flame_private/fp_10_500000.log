@@ -1,0 +1,180 @@
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-10-500000 -F -pn 19692 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-10-500000 -F -pn 19692 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 0.000600824
+Starting timer 2 at 0 (0 MB, 0 rounds) after 8.72e-07
+Stopped timer 2 at 9.60515 (20.1923 MB, 12008 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 1.503e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 1.31298 (80.0001 MB, 6 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.182e-06
+Stopped timer 4 at 8.54759 (1600.08 MB, 772 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.563e-06
+Stopped timer 5 at 0.0162798 (0.009387 MB, 78 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.382e-06
+Stopped timer 6 at 0.157234 (2.25757 MB, 11538 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 1.423e-06
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 13278 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     13279 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+
+
+
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-10-500000 -F -pn 13046 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-10-500000 -F -pn 13046 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 1.9377e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 7.61e-07
+Stopped timer 2 at 9.39836 (20.1923 MB, 12008 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.034e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 1.64589 (80.0001 MB, 6 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 8.946e-06
+Stopped timer 4 at 8.64326 (1600.08 MB, 772 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.413e-06
+Stopped timer 5 at 0.021251 (0.009387 MB, 78 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 2.074e-06
+Stopped timer 6 at 0.166736 (2.25757 MB, 11538 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 1.012e-06
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 13408 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     13409 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-10-500000 -F -pn 17655 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-10-500000 -F -pn 17655 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 0.000375177
+Starting timer 2 at 0 (0 MB, 0 rounds) after 8.41e-07
+Stopped timer 2 at 9.92359 (20.1923 MB, 12008 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 0.000482951
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 1.66774 (80.0001 MB, 6 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.103e-06
+Stopped timer 4 at 8.40406 (1600.08 MB, 772 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.242e-06
+Stopped timer 5 at 0.0179475 (0.009387 MB, 78 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.212e-06
+Stopped timer 6 at 0.168031 (2.25757 MB, 11538 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 1.002e-06
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 13535 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     13536 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+
+
+
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-10-500000 -F -pn 14381 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-10-500000 -F -pn 14381 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 0.000176914
+Starting timer 2 at 0 (0 MB, 0 rounds) after 8.51e-07
+Stopped timer 2 at 9.65756 (20.1923 MB, 12008 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.655e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 1.48025 (80.0001 MB, 6 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 6.924e-05
+Stopped timer 4 at 8.18219 (1600.08 MB, 772 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 3.627e-06
+Stopped timer 5 at 0.0284891 (0.009387 MB, 78 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.193e-06
+Stopped timer 6 at 0.164399 (2.25757 MB, 11538 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 1.372e-06
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 13664 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     13665 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-10-500000 -F -pn 17279 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-10-500000 -F -pn 17279 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 0.000393943
+Starting timer 2 at 0 (0 MB, 0 rounds) after 3.837e-06
+Stopped timer 2 at 10.7099 (20.1923 MB, 12008 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 3.266e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 1.53361 (80.0001 MB, 6 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.122e-06
+Stopped timer 4 at 8.21536 (1600.08 MB, 772 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.303e-06
+Stopped timer 5 at 0.0224102 (0.009387 MB, 78 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.152e-06
+Stopped timer 6 at 0.160706 (2.25757 MB, 11538 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 1.102e-06
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 13794 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     13795 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+
+
+

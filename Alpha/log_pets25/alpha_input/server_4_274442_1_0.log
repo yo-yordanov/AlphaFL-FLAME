@@ -1,45 +1,45 @@
-vOLE Recv: 28.1778 seconds, 8852.4 MB
-vOLE Recv: 29.0477 seconds, 8852.4 MB
-vOLE Recv: 29.5465 seconds, 8852.4 MB
-vOLE Recv: 29.6793 seconds, 8852.4 MB
+vOLE Recv: 29.4352 seconds, 8852.4 MB
+vOLE Recv: 29.4371 seconds, 8852.4 MB
+vOLE Recv: 29.447 seconds, 8852.4 MB
+vOLE Recv: 29.4662 seconds, 8852.4 MB
 
 Server 0 Input Commitment DisHonest:
-Total Time = 30.1073 seconds
-Receiving directly 35409.6 MB in 254 rounds, taking 51.4615 seconds
+Total Time = 30.0625 seconds
+Receiving directly 35269.1 MB in 253 rounds, taking 22.8013 seconds
 Sending directly 0.000128 MB in 2 rounds, taking 0 seconds
-vOLE Recv: 27.9116 seconds, 8852.4 MB
-vOLE Recv: 29.2728 seconds, 8852.4 MB
-vOLE Recv: 29.9041 seconds, 8852.4 MB
-vOLE Recv: 30.4096 seconds, 8852.4 MB
+vOLE Recv: 29.367 seconds, 8852.4 MB
+vOLE Recv: 29.4007 seconds, 8852.4 MB
+vOLE Recv: 29.4429 seconds, 8852.4 MB
+vOLE Recv: 29.4286 seconds, 8852.4 MB
 
 Server 0 Input Commitment DisHonest:
-Total Time = 30.7931 seconds
-Receiving directly 35409.6 MB in 254 rounds, taking 52.5927 seconds
+Total Time = 29.9981 seconds
+Receiving directly 35409.6 MB in 254 rounds, taking 22.3367 seconds
 Sending directly 0.000128 MB in 2 rounds, taking 0 seconds
-vOLE Recv: 25.6206 seconds, 8852.4 MB
-vOLE Recv: 28.0471 seconds, 8852.4 MB
-vOLE Recv: 29.5409 seconds, 8852.4 MB
-vOLE Recv: 31.6737 seconds, 8852.4 MB
+vOLE Recv: 29.408 seconds, 8852.4 MB
+vOLE Recv: 29.4126 seconds, 8852.4 MB
+vOLE Recv: 29.428 seconds, 8852.4 MB
+vOLE Recv: 29.4742 seconds, 8852.4 MB
 
 Server 0 Input Commitment DisHonest:
-Total Time = 32.0707 seconds
-Receiving directly 35409.6 MB in 254 rounds, taking 49.9804 seconds
+Total Time = 30.0238 seconds
+Receiving directly 35409.6 MB in 254 rounds, taking 22.8604 seconds
 Sending directly 0.000128 MB in 2 rounds, taking 0 seconds
-vOLE Recv: 28.4673 seconds, 8852.4 MB
-vOLE Recv: 28.7287 seconds, 8852.4 MB
-vOLE Recv: 29.6037 seconds, 8852.4 MB
-vOLE Recv: 30.2174 seconds, 8852.4 MB
+vOLE Recv: 29.3507 seconds, 8852.4 MB
+vOLE Recv: 29.357 seconds, 8852.4 MB
+vOLE Recv: 29.3877 seconds, 8852.4 MB
+vOLE Recv: 29.3849 seconds, 8852.4 MB
 
 Server 0 Input Commitment DisHonest:
-Total Time = 30.6667 seconds
-Receiving directly 35409.6 MB in 254 rounds, taking 51.5769 seconds
+Total Time = 29.9627 seconds
+Receiving directly 35409.6 MB in 254 rounds, taking 22.5672 seconds
 Sending directly 0.000128 MB in 2 rounds, taking 0 seconds
-vOLE Recv: 26.4169 seconds, 8852.4 MB
-vOLE Recv: 29.3269 seconds, 8852.4 MB
-vOLE Recv: 29.4795 seconds, 8852.4 MB
-vOLE Recv: 29.588 seconds, 8852.4 MB
+vOLE Recv: 29.3754 seconds, 8852.4 MB
+vOLE Recv: 29.3863 seconds, 8852.4 MB
+vOLE Recv: 29.3897 seconds, 8852.4 MB
+vOLE Recv: 29.4262 seconds, 8852.4 MB
 
 Server 0 Input Commitment DisHonest:
-Total Time = 30.1134 seconds
-Receiving directly 35409.6 MB in 254 rounds, taking 50.6305 seconds
+Total Time = 29.9766 seconds
+Receiving directly 35409.6 MB in 254 rounds, taking 22.4734 seconds
 Sending directly 0.000128 MB in 2 rounds, taking 0 seconds

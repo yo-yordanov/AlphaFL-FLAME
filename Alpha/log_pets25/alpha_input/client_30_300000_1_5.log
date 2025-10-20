@@ -1,20 +1,12 @@
-vOLE Send: 221.914 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 226.597 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 248.8 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 249.856 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 236.763 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 244.522 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 252.841 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 254.512 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
-vOLE Send: 240.003 seconds, 9676.8 MB
-Client Input Commitment DisHonest:
-Total Time = 245.49 seconds
-Sending directly 9907.2 MB in 64 rounds, taking 0 seconds
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10006 failed (Address already in use), trying again in a second ...
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer

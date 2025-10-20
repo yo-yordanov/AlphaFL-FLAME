@@ -1,20 +1,15 @@
-vOLE Send: 26.2759 seconds, 3225.6 MB
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+vOLE Send: 26.5787 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 26.6773 seconds
+Total Time = 27.1475 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 21.3902 seconds, 3225.6 MB
+vOLE Send: 24.5131 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 22.0699 seconds
+Total Time = 25.051 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 19.0107 seconds, 3225.6 MB
+vOLE Send: 14.8904 seconds, 3225.6 MB
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+vOLE Send: 26.6219 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 20.1941 seconds
-Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 24.1859 seconds, 3225.6 MB
-Client Input Commitment DisHonest:
-Total Time = 24.7657 seconds
-Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 24.735 seconds, 3225.6 MB
-Client Input Commitment DisHonest:
-Total Time = 25.2928 seconds
+Total Time = 27.2536 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds

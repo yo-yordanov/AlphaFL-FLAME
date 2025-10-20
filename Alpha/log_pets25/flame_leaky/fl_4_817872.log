@@ -1,0 +1,125 @@
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-4-817872 -F -pn 12535 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-4-817872 -F -pn 12535 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 26273 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     26274 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+terminate called recursively
+terminate called recursively
+terminate called recursively
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-4-817872 -F -pn 10968 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-4-817872 -F -pn 10968 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 0.00187099
+Starting timer 2 at 0 (0 MB, 0 rounds) after 1.242e-06
+ubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peerubuntu-slim-5 : Receiving error - 1 : Connection reset by peer
+
+
+
+
+
+
+
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 26404 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     26405 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-4-817872 -F -pn 18586 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-4-817872 -F -pn 18586 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 26537 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     26538 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+terminate called recursively
+closed_connection'
+terminate called recursively
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-4-817872 -F -pn 13951 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-4-817872 -F -pn 13951 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 26671 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     26672 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+terminate called recursively
+terminate called after throwing an instance of 'terminate called recursively
+terminate called recursively
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-4-817872 -F -pn 15338 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-4-817872 -F -pn 15338 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 26808 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     26809 Done                    | { if test "$BENCH"; then
+    if test $i = $front_player; then
+        tee -a $log;
+    else
+        cat >> $log;
+    fi;
+else
+    if test $i = $front_player; then
+        tee $log;
+    else
+        cat > $log;
+    fi;
+fi; }
+=== Party 1
+terminate called recursively
+terminate called recursively
+terminate called recursively

@@ -5,6 +5,7 @@
 *.bc
 *.sch
 *.pyc
+*o.tmp
 
 Player-Data/
 Persistence/
@@ -12,3 +13,6 @@ Persistence/
 deps/
 local/
 logs/
+venv/
+.venv/
+

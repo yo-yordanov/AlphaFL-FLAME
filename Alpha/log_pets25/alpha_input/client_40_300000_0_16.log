@@ -1,20 +1,14 @@
-
-Client Input Commitment Honest:
-Total Time = 21.0164 seconds
-Sending directly 230.4 MB in 1 rounds, taking 0 seconds
-
-Client Input Commitment Honest:
-Total Time = 19.0154 seconds
-Sending directly 230.4 MB in 1 rounds, taking 0 seconds
-
-Client Input Commitment Honest:
-Total Time = 14.3067 seconds
-Sending directly 230.4 MB in 1 rounds, taking 0 seconds
-
-Client Input Commitment Honest:
-Total Time = 18.197 seconds
-Sending directly 230.4 MB in 1 rounds, taking 0 seconds
-
-Client Input Commitment Honest:
-Total Time = 18.0483 seconds
-Sending directly 230.4 MB in 1 rounds, taking 0 seconds
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10017 failed (Address already in use), trying again in a second ...
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer

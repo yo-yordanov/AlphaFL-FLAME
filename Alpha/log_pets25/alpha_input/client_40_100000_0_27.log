@@ -1,20 +1,21 @@
+Binding to socket on ubuntu-slim-5:10028 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10028 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10028 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10028 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
 
 Client Input Commitment Honest:
-Total Time = 5.80691 seconds
+Total Time = 7.54855 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds
 
 Client Input Commitment Honest:
-Total Time = 5.86654 seconds
+Total Time = 9.40198 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds
 
 Client Input Commitment Honest:
-Total Time = 5.08355 seconds
+Total Time = 8.00985 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds
 
 Client Input Commitment Honest:
-Total Time = 5.86373 seconds
-Sending directly 76.8 MB in 1 rounds, taking 0 seconds
-
-Client Input Commitment Honest:
-Total Time = 4.56329 seconds
+Total Time = 8.8417 seconds
 Sending directly 76.8 MB in 1 rounds, taking 0 seconds

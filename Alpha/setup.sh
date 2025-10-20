@@ -19,4 +19,4 @@ mv Player-Data/2-Z64,64-64/Player-MAC-Keys-R-P1 Player-Data/2-Z64,64-64/Player-M
 mv data.tmp Player-Data/2-Z64,64-64/Player-MAC-Keys-R-P1
 
 # Repeat to fix possible issues with above setup
-./Fake-Offline.x 2 -Z 64 -S 64 -e 32,64
+./Fake-Offline.x 2 -Z 64 -S 64 -e 1,14,15,16,30,31,32,33,47,63,64

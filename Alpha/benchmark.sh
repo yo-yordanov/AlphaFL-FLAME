@@ -102,6 +102,44 @@ function benchmark_alpha_input {
     done
 }
 
+function benchmark_flame_private {
+    NUM_CLIENTS=$1
+    NUM_INPUTS=$2
+    NUM_REP=$3
+    LOG_DIR="$LOG"/flame_private/
+    mkdir -p $LOG_DIR
+
+    ./compile.py -Y -O -I -l -R 64 flame_private.mpc $NUM_CLIENTS $NUM_INPUTS
+
+    # clear logs
+    >"$LOG_DIR"/fp_"$NUM_CLIENTS"_"$NUM_INPUTS".log
+
+    # benchmark
+    for r in $(seq 1 $NUM_REP); do
+        pkill -f "spdz2k-party.x"
+        Scripts/spdz2k.sh flame_private-$NUM_CLIENTS-$NUM_INPUTS -F >>"$LOG_DIR"/fp_"$NUM_CLIENTS"_"$NUM_INPUTS".log 2>&1
+    done
+}
+
+function benchmark_flame_leaky {
+    NUM_CLIENTS=$1
+    NUM_INPUTS=$2
+    NUM_REP=$3
+    LOG_DIR="$LOG"/flame_leaky/
+    mkdir -p $LOG_DIR
+
+    ./compile.py -Y -O -I -l -R 64 flame_leaky.mpc $NUM_CLIENTS $NUM_INPUTS
+
+    # clear logs
+    >"$LOG_DIR"/fl_"$NUM_CLIENTS"_"$NUM_INPUTS".log
+
+    # benchmark
+    for r in $(seq 1 $NUM_REP); do
+        pkill -f "spdz2k-party.x"
+        Scripts/spdz2k.sh flame_leaky-$NUM_CLIENTS-$NUM_INPUTS -F >>"$LOG_DIR"/fl_"$NUM_CLIENTS"_"$NUM_INPUTS".log 2>&1
+    done
+}
+
 function Help {
     echo "$0 -b alpha-input [-c #clients] [-i #inputs] [-m mode] [-r #repetitions]"
 }
@@ -156,6 +194,14 @@ case $target in
     ;;
 "micro-input")
     microbenchmark_input $inputs
+    exit
+    ;;
+"flame-private")
+    benchmark_flame_private $clients $inputs $repetitions
+    exit
+    ;;
+"flame-leaky")
+    benchmark_flame_leaky $clients $inputs $repetitions
     exit
     ;;
 *) # Invalid option

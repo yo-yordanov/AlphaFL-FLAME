@@ -1,25 +1,2 @@
-
-Server 0 Input Commitment Honest:
-Total Time = 7.43154 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 6.864 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 0 Input Commitment Honest:
-Total Time = 7.34947 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 6.76884 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 0 Input Commitment Honest:
-Total Time = 5.43784 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 4.85414 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 0 Input Commitment Honest:
-Total Time = 7.82783 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 7.25847 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 0 Input Commitment Honest:
-Total Time = 7.83294 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 7.25584 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
+ubuntu-slim-5 : Receiving error - 1 : Connection reset by peer
+ubuntu-slim-5 : Receiving error - 1 : Connection reset by peer

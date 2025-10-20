@@ -1,25 +1,9 @@
-
-Server 1 Input Commitment Honest:
-Total Time = 7.58757 seconds
-Receiving directly 9216 MB in 42 rounds, taking 254.941 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 1 Input Commitment Honest:
-Total Time = 7.5196 seconds
-Receiving directly 9216 MB in 42 rounds, taking 250.357 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 1 Input Commitment Honest:
-Total Time = 7.54257 seconds
-Receiving directly 9216 MB in 42 rounds, taking 255.774 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 1 Input Commitment Honest:
-Total Time = 7.59666 seconds
-Receiving directly 9216 MB in 42 rounds, taking 251.024 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 1 Input Commitment Honest:
-Total Time = 7.6121 seconds
-Receiving directly 9216 MB in 42 rounds, taking 239.743 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...
+Binding to socket on ubuntu-slim-5:10000 failed (Address already in use), trying again in a second ...

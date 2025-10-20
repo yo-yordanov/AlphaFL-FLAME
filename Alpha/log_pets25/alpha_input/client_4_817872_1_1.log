@@ -1,20 +1,9 @@
-vOLE Send: 85.6408 seconds, 26381.3 MB
-Client Input Commitment DisHonest:
-Total Time = 88.7193 seconds
-Sending directly 27009.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 91.8937 seconds, 26381.3 MB
-Client Input Commitment DisHonest:
-Total Time = 93.6569 seconds
-Sending directly 27009.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 89.145 seconds, 26381.3 MB
-Client Input Commitment DisHonest:
-Total Time = 91.2558 seconds
-Sending directly 27009.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 91.7986 seconds, 26381.3 MB
-Client Input Commitment DisHonest:
-Total Time = 93.5558 seconds
-Sending directly 27009.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 89.1904 seconds, 26381.3 MB
-Client Input Commitment DisHonest:
-Total Time = 91.3419 seconds
-Sending directly 27009.4 MB in 64 rounds, taking 0 seconds
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10002 failed (Address already in use), trying again in a second ...
+vOLE Send: 90.7147 seconds, 26381.3 MB
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+Binding to socket on ubuntu-slim-5:10002 failed (Address already in use), trying again in a second ...
+vOLE Send: 90.8978 seconds, 26381.3 MB
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer

@@ -1,25 +1,21 @@
+ubuntu-slim-5 : Receiving error - 1 : Connection reset by peer
 
 Server 0 Input Commitment Honest:
-Total Time = 2.47721 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 2.2771 seconds
+Total Time = 1.98251 seconds
+Receiving directly 0.00128 MB in 2 rounds, taking 1.72452 seconds
 Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
 
 Server 0 Input Commitment Honest:
-Total Time = 2.60263 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 2.41613 seconds
+Total Time = 2.12683 seconds
+Receiving directly 0.00128 MB in 2 rounds, taking 1.85366 seconds
 Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
 
 Server 0 Input Commitment Honest:
-Total Time = 3.39938 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 3.21808 seconds
+Total Time = 1.97026 seconds
+Receiving directly 0.00128 MB in 2 rounds, taking 1.70489 seconds
 Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
 
 Server 0 Input Commitment Honest:
-Total Time = 2.58089 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 2.40203 seconds
-Sending directly 0.00128 MB in 2 rounds, taking 0 seconds
-
-Server 0 Input Commitment Honest:
-Total Time = 1.84064 seconds
-Receiving directly 0.00128 MB in 2 rounds, taking 1.65766 seconds
+Total Time = 1.22346 seconds
+Receiving directly 0.00128 MB in 2 rounds, taking 0.748017 seconds
 Sending directly 0.00128 MB in 2 rounds, taking 0 seconds

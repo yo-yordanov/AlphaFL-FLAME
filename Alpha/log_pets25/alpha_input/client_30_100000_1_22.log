@@ -1,20 +1,18 @@
-vOLE Send: 75.3711 seconds, 3225.6 MB
+vOLE Send: 46.1769 seconds, 3225.6 MB
+ubuntu-slim-5 : Send error - 1  : Connection reset by peer
+vOLE Send: 89.2252 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 76.4368 seconds
+Total Time = 90.0431 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 76.43 seconds, 3225.6 MB
+vOLE Send: 86.9532 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 78.8752 seconds
+Total Time = 88.3654 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 81.5048 seconds, 3225.6 MB
+vOLE Send: 83.7822 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 82.053 seconds
+Total Time = 85.032 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 79.8138 seconds, 3225.6 MB
+vOLE Send: 87.185 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 81.4829 seconds
-Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 81.8511 seconds, 3225.6 MB
-Client Input Commitment DisHonest:
-Total Time = 82.2912 seconds
+Total Time = 88.6382 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds

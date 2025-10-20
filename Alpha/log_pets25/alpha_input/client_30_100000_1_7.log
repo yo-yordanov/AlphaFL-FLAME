@@ -1,20 +1,18 @@
-vOLE Send: 81.8698 seconds, 3225.6 MB
+Binding to socket on ubuntu-slim-5:10008 failed (Address already in use), trying again in a second ...
+Timed out waiting for peer. See https://mp-spdz.readthedocs.io/en/latest/networking.html for details on networking.
+vOLE Send: 90.8835 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 82.4566 seconds
+Total Time = 91.1425 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 73.4717 seconds, 3225.6 MB
+vOLE Send: 90.2291 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 75.9519 seconds
+Total Time = 90.7082 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 76.303 seconds, 3225.6 MB
+vOLE Send: 89.1315 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 77.5031 seconds
+Total Time = 89.4802 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 71.5039 seconds, 3225.6 MB
+vOLE Send: 86.5236 seconds, 3225.6 MB
 Client Input Commitment DisHonest:
-Total Time = 72.5315 seconds
-Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
-vOLE Send: 82.4585 seconds, 3225.6 MB
-Client Input Commitment DisHonest:
-Total Time = 82.7256 seconds
+Total Time = 88.1018 seconds
 Sending directly 3302.4 MB in 64 rounds, taking 0 seconds
