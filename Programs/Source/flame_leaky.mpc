@@ -25,6 +25,10 @@ DELTA = MemValue(cint(1))
 
 n_clients = int(program.args[1]) if len(program.args) > 1 else int(10)
 n_inputs = int(program.args[2]) if len(program.args) > 2 else int(1000)
+
+log2_ceil = 4 if n_clients <= 16 else (5 if n_clients <= 32 else 6)
+N_BITS_NOISE = N_BITS + log2_ceil
+
 N = n_clients * n_inputs
 n_x, n_y = N_THREADS_LOW, 2048
 while N % n_y != 0:
@@ -55,6 +59,7 @@ input_batched_m = Matrix(n_x, n_y, sint).assign_all(0)
 input_m = Matrix(n_clients, n_inputs, sint)
 input_sq_m = Matrix(n_clients, n_inputs, sint)
 cos_m = Matrix(n_clients, n_clients, cint)
+l2_a = Array(n_clients, cint)
 l2_m = Matrix(1, n_clients, cint)
 l2_prod_m = Matrix(n_clients, n_clients, cint)
 neighbors_m = Matrix(n_clients, n_clients, cint)
@@ -67,8 +72,8 @@ result_a = Array(n_inputs, sint)
 median = MemValue(sint(0))
 median_a = Array(n_clients, cint)
 
-sb32t_noise = sbits.get_type(n_noise_y * N_BITS)
-noise_bt = sint.Tensor([n_noise_x, n_noise_y, N_BITS])
+sb32t_noise = sbits.get_type(n_noise_y * N_BITS_NOISE)
+noise_bt = sint.Tensor([n_noise_x, n_noise_y, N_BITS_NOISE])
 noise_batched_m = Matrix(n_noise_x, n_noise_y, sint).assign_all(0)
 noise_values_m = Matrix(12, n_inputs, sint)
 noise_values_a = Array(n_inputs, sint)
@@ -79,7 +84,7 @@ dabit_b = MemValue(sb32t(0))
 input_b = MemValue(sb32t(0))
 
 # noise dabits
-noise_dabit_a = MemValue(sintbit(0, n_noise_y * N_BITS))
+noise_dabit_a = MemValue(sintbit(0, n_noise_y * N_BITS_NOISE))
 noise_dabit_b = MemValue(sb32t_noise(0))
 noise_b = MemValue(sb32t_noise(0))
 
@@ -116,9 +121,20 @@ def sum_rows(i):
 
 
 l2 = sum_rows()
-l2 = l2.reveal()
-l2_m.assign_vector(l2)
-# TODO: sqrt?
+l2_a.assign_vector(l2.reveal())
+
+
+@for_range_opt_multithread(N_THREADS_HIGH, n_clients)
+def _(i):
+    n = l2_a[i]
+    l2_a[i] = (n / cint(2)).max(cint(1))
+
+    @for_range_opt(6)
+    def _(j):
+        l2_a[i] = (l2_a[i] + n / l2_a[i]) / cint(2)
+
+
+l2_m.assign_vector(l2_a.get_vector())
 stop_timer(3)
 
 # Cosine Similarities
@@ -147,7 +163,7 @@ stop_timer(5)
 
 # Clipping bound
 start_timer(6)
-l2_sorted_a.assign_vector(l2)
+l2_sorted_a.assign_vector(l2_a.get_vector())
 
 
 # Bubble sort for l2_sorted_a
@@ -179,7 +195,7 @@ stop_timer(6)
 
 # Clipping
 start_timer(7)
-median_a[:] /= l2[:]
+median_a[:] /= l2_a[:]
 bounds_a.assign_vector(median_a)
 
 
@@ -204,9 +220,7 @@ stop_timer(8)
 
 # Noise
 start_timer(9)
-ln_term = log_fx(
-    cfix(1.25) / DELTA.read(), math.e
-)  # λ = (1/ε) · √(2ln(1.25/δ))
+ln_term = log_fx(cfix(1.25) / DELTA.read(), math.e)  # λ = (1/ε) · √(2ln(1.25/δ))
 sqrt_term = sqrt(ln_term * cfix(2)).reveal()
 lambda_val = (cfix(1.0) / EPS.read()) * sqrt_term
 
@@ -217,7 +231,7 @@ def _(j):
     noise_a = c_noise + noise_dabit_a - 2 * c_noise * noise_dabit_a
     noise_bt.assign_part_vector(noise_a, j)
 
-    @for_range_opt(N_BITS)
+    @for_range_opt(N_BITS_NOISE)
     def _(i):
         noise_batched_m[j][:] += noise_bt[j].get_column(i) * (2**i)
 

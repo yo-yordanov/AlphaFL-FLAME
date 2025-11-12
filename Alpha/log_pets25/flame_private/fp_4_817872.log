@@ -1,54 +1,10 @@
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 10981 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 10981 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 10260 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 10260 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11273 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11274 Done                    | { if test "$BENCH"; then
-    if test $i = $front_player; then
-        tee -a $log;
-    else
-        cat >> $log;
-    fi;
-else
-    if test $i = $front_player; then
-        tee $log;
-    else
-        cat > $log;
-    fi;
-fi; }
-=== Party 1
-Using statistical security parameter 40
-Trying to run 64-bit computation
-terminate called after throwing an instance of 'closed_connection'
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 13180 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 13180 -h localhost -N 2
-Using SPDZ2k security parameter 64
-Using statistical security parameter 40
-Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 0.00179622
-Starting timer 2 at 0 (0 MB, 0 rounds) after 1.303e-06
-terminate called recursively
-terminate called recursively
-terminate called after throwing an instance of 'terminate called recursively
-terminate called recursively
-terminate called recursively
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11401 Aborted                 (core dumped) $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11402 Done                    | { if test "$BENCH"; then
-    if test $i = $front_player; then
-        tee -a $log;
-    else
-        cat >> $log;
-    fi;
-else
-    if test $i = $front_player; then
-        tee $log;
-    else
-        cat > $log;
-    fi;
-fi; }
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11403 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11404 Done                    | { if test "$BENCH"; then
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 27738 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     27739 Done                    | { if test "$BENCH"; then
     if test $i = $front_player; then
         tee -a $log;
     else
@@ -65,13 +21,13 @@ fi; }
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 12674 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 12674 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 14394 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 14394 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11545 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11546 Done                    | { if test "$BENCH"; then
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 27819 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     27821 Done                    | { if test "$BENCH"; then
     if test $i = $front_player; then
         tee -a $log;
     else
@@ -85,16 +41,16 @@ else
     fi;
 fi; }
 === Party 1
-Using statistical security parameter 40
-Trying to run 64-bit computation
-terminate called after throwing an instance of 'closed_connection'
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 14424 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 14424 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11673 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11674 Done                    | { if test "$BENCH"; then
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 10444 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 10444 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 27897 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     27898 Done                    | { if test "$BENCH"; then
     if test $i = $front_player; then
         tee -a $log;
     else
@@ -108,25 +64,16 @@ else
     fi;
 fi; }
 === Party 1
-Using statistical security parameter 40
-Trying to run 64-bit computation
-terminate called after throwing an instance of 'closed_connection'
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 15773 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 15773 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 0.00199573
-Starting timer 2 at 0 (0 MB, 0 rounds) after 1.323e-06
-terminate called recursively
-terminate called recursively
-terminate called recursively
-terminate called after throwing an instance of 'terminate called recursively
-terminate called recursively
-closed_connection'
-terminate called recursively
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11810 Aborted                 (core dumped) $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11811 Done                    | { if test "$BENCH"; then
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 14691 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 14691 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 27971 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     27972 Done                    | { if test "$BENCH"; then
     if test $i = $front_player; then
         tee -a $log;
     else
@@ -139,8 +86,17 @@ else
         cat > $log;
     fi;
 fi; }
-/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 11813 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
-     11814 Done                    | { if test "$BENCH"; then
+=== Party 1
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_private-4-817872 -F -pn 12929 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_private-4-817872 -F -pn 12929 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+/home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/run-common.sh: line 90: 28049 Killed                  $my_prefix $SPDZROOT/$bin $i $params 2>&1
+     28050 Done                    | { if test "$BENCH"; then
     if test $i = $front_player; then
         tee -a $log;
     else

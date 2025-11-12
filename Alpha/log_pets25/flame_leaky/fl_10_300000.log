@@ -1,215 +1,215 @@
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 14652 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 14652 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 12938 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 12938 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 2.7201e-05
-Starting timer 2 at 0 (0 MB, 0 rounds) after 7.12e-07
-Stopped timer 2 at 5.11923 (12.1203 MB, 7508 rounds)
-Starting timer 3 at 0 (0 MB, 0 rounds) after 1.563e-06
-REUSING DATA - ONLY FOR BENCHMARKING
-Stopped timer 3 at 0.572697 (48.0004 MB, 12 rounds)
-Starting timer 4 at 0 (0 MB, 0 rounds) after 1.473e-06
-Stopped timer 4 at 4.90326 (960.007 MB, 406 rounds)
-Starting timer 5 at 0 (0 MB, 0 rounds) after 1.252e-06
-Stopped timer 5 at 0.00191604 (0.000924 MB, 30 rounds)
-Starting timer 6 at 0 (0 MB, 0 rounds) after 1.052e-06
-Stopped timer 6 at 3.0408e-05 (0 MB, 0 rounds)
-Starting timer 7 at 0 (0 MB, 0 rounds) after 5.81e-07
-Stopped timer 7 at 0.0931426 (0 MB, 0 rounds)
-Starting timer 8 at 0 (0 MB, 0 rounds) after 2.204e-06
-Stopped timer 8 at 0.207026 (0 MB, 0 rounds)
-Starting timer 9 at 0 (0 MB, 0 rounds) after 1.703e-06
-Stopped timer 9 at 6.49859 (14.5706 MB, 10336 rounds)
-Starting timer 10 at 0 (0 MB, 0 rounds) after 1.273e-06
-Stopped timer 10 at 0.286449 (4.8001 MB, 6 rounds)
-Starting timer 11 at 0 (0 MB, 0 rounds) after 1.413e-06
-Stopped timer 11 at 0.000341736 (7.6e-05 MB, 3 rounds)
-Stopped timer 1 at 17.6829 (1039.5 MB, 18301 rounds)
-The following benchmarks are excluding preprocessing (offline phase).
-Time = 17.8256 seconds 
-Time1 = 17.6829 seconds (1039.5 MB, 18301 rounds)
-Time2 = 5.11923 seconds (12.1203 MB, 7508 rounds)
-Time3 = 0.572697 seconds (48.0004 MB, 12 rounds)
-Time4 = 4.90326 seconds (960.007 MB, 406 rounds)
-Time5 = 0.00191604 seconds (0.000924 MB, 30 rounds)
-Time6 = 3.0408e-05 seconds (0 MB, 0 rounds)
-Time7 = 0.0931426 seconds (0 MB, 0 rounds)
-Time8 = 0.207026 seconds (0 MB, 0 rounds)
-Time9 = 6.49859 seconds (14.5706 MB, 10336 rounds)
-Time10 = 0.286449 seconds (4.8001 MB, 6 rounds)
-Time11 = 0.000341736 seconds (7.6e-05 MB, 3 rounds)
-Data sent = 1039.5 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
-Global data sent = 2079 MB (all parties)
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 15842 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 15842 -h localhost -N 2
-Using SPDZ2k security parameter 64
-Using statistical security parameter 40
-Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 2.7782e-05
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.9125e-05
 Starting timer 2 at 0 (0 MB, 0 rounds) after 7.31e-07
-Stopped timer 2 at 5.11794 (12.1203 MB, 7508 rounds)
-Starting timer 3 at 0 (0 MB, 0 rounds) after 1.382e-06
+Stopped timer 2 at 5.10887 (12.1203 MB, 7508 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 1.833e-06
 REUSING DATA - ONLY FOR BENCHMARKING
-Stopped timer 3 at 0.559382 (48.0004 MB, 12 rounds)
-Starting timer 4 at 0 (0 MB, 0 rounds) after 2.374e-06
-Stopped timer 4 at 4.90763 (960.007 MB, 406 rounds)
-Starting timer 5 at 0 (0 MB, 0 rounds) after 1.222e-06
-Stopped timer 5 at 0.0016766 (0.000924 MB, 30 rounds)
-Starting timer 6 at 0 (0 MB, 0 rounds) after 1.002e-06
-Stopped timer 6 at 2.9907e-05 (0 MB, 0 rounds)
-Starting timer 7 at 0 (0 MB, 0 rounds) after 6.41e-07
-Stopped timer 7 at 0.0936856 (0 MB, 0 rounds)
-Starting timer 8 at 0 (0 MB, 0 rounds) after 1.082e-06
-Stopped timer 8 at 0.200103 (0 MB, 0 rounds)
-Starting timer 9 at 0 (0 MB, 0 rounds) after 2.064e-06
-Stopped timer 9 at 6.50237 (14.5706 MB, 10336 rounds)
-Starting timer 10 at 0 (0 MB, 0 rounds) after 1.673e-06
-Stopped timer 10 at 0.28356 (4.8001 MB, 6 rounds)
-Starting timer 11 at 0 (0 MB, 0 rounds) after 1.724e-06
-Stopped timer 11 at 0.000447896 (7.6e-05 MB, 3 rounds)
-Stopped timer 1 at 17.6671 (1039.5 MB, 18301 rounds)
+Stopped timer 3 at 0.574327 (48.0004 MB, 12 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.124e-06
+Stopped timer 4 at 4.85446 (960.007 MB, 406 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.263e-06
+Stopped timer 5 at 0.00174954 (0.000924 MB, 30 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.022e-06
+Stopped timer 6 at 3.0017e-05 (0 MB, 0 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 6.42e-07
+Stopped timer 7 at 0.0927819 (0 MB, 0 rounds)
+Starting timer 8 at 0 (0 MB, 0 rounds) after 2.334e-06
+Stopped timer 8 at 0.207871 (0 MB, 0 rounds)
+Starting timer 9 at 0 (0 MB, 0 rounds) after 1.092e-06
+Stopped timer 9 at 7.29124 (16.3706 MB, 10336 rounds)
+Starting timer 10 at 0 (0 MB, 0 rounds) after 1.613e-06
+Stopped timer 10 at 0.28946 (4.8001 MB, 6 rounds)
+Starting timer 11 at 0 (0 MB, 0 rounds) after 1.873e-06
+Stopped timer 11 at 0.000446193 (7.6e-05 MB, 3 rounds)
+Stopped timer 1 at 18.4215 (1041.3 MB, 18301 rounds)
 The following benchmarks are excluding preprocessing (offline phase).
-Time = 17.808 seconds 
-Time1 = 17.6671 seconds (1039.5 MB, 18301 rounds)
-Time2 = 5.11794 seconds (12.1203 MB, 7508 rounds)
-Time3 = 0.559382 seconds (48.0004 MB, 12 rounds)
-Time4 = 4.90763 seconds (960.007 MB, 406 rounds)
-Time5 = 0.0016766 seconds (0.000924 MB, 30 rounds)
-Time6 = 2.9907e-05 seconds (0 MB, 0 rounds)
-Time7 = 0.0936856 seconds (0 MB, 0 rounds)
-Time8 = 0.200103 seconds (0 MB, 0 rounds)
-Time9 = 6.50237 seconds (14.5706 MB, 10336 rounds)
-Time10 = 0.28356 seconds (4.8001 MB, 6 rounds)
-Time11 = 0.000447896 seconds (7.6e-05 MB, 3 rounds)
-Data sent = 1039.5 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
-Global data sent = 2079 MB (all parties)
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 17012 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 17012 -h localhost -N 2
+Time = 18.5629 seconds 
+Time1 = 18.4215 seconds (1041.3 MB, 18301 rounds)
+Time2 = 5.10887 seconds (12.1203 MB, 7508 rounds)
+Time3 = 0.574327 seconds (48.0004 MB, 12 rounds)
+Time4 = 4.85446 seconds (960.007 MB, 406 rounds)
+Time5 = 0.00174954 seconds (0.000924 MB, 30 rounds)
+Time6 = 3.0017e-05 seconds (0 MB, 0 rounds)
+Time7 = 0.0927819 seconds (0 MB, 0 rounds)
+Time8 = 0.207871 seconds (0 MB, 0 rounds)
+Time9 = 7.29124 seconds (16.3706 MB, 10336 rounds)
+Time10 = 0.28946 seconds (4.8001 MB, 6 rounds)
+Time11 = 0.000446193 seconds (7.6e-05 MB, 3 rounds)
+Data sent = 1041.3 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 2082.6 MB (all parties)
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 13391 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 13391 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 2.8824e-05
-Starting timer 2 at 0 (0 MB, 0 rounds) after 7.12e-07
-Stopped timer 2 at 5.11469 (12.1203 MB, 7508 rounds)
-Starting timer 3 at 0 (0 MB, 0 rounds) after 1.173e-06
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.8404e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 7.11e-07
+Stopped timer 2 at 5.1016 (12.1203 MB, 7508 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 2.234e-06
 REUSING DATA - ONLY FOR BENCHMARKING
-Stopped timer 3 at 0.570809 (48.0004 MB, 12 rounds)
-Starting timer 4 at 0 (0 MB, 0 rounds) after 1.513e-06
-Stopped timer 4 at 4.84255 (960.007 MB, 406 rounds)
-Starting timer 5 at 0 (0 MB, 0 rounds) after 1.282e-06
-Stopped timer 5 at 0.00179179 (0.000924 MB, 30 rounds)
-Starting timer 6 at 0 (0 MB, 0 rounds) after 1.042e-06
-Stopped timer 6 at 3.0939e-05 (0 MB, 0 rounds)
-Starting timer 7 at 0 (0 MB, 0 rounds) after 5.81e-07
-Stopped timer 7 at 0.0935387 (0 MB, 0 rounds)
-Starting timer 8 at 0 (0 MB, 0 rounds) after 2.244e-06
-Stopped timer 8 at 0.202776 (0 MB, 0 rounds)
-Starting timer 9 at 0 (0 MB, 0 rounds) after 2.004e-06
-Stopped timer 9 at 6.5123 (14.5706 MB, 10336 rounds)
-Starting timer 10 at 0 (0 MB, 0 rounds) after 1.553e-06
-Stopped timer 10 at 0.287175 (4.8001 MB, 6 rounds)
-Starting timer 11 at 0 (0 MB, 0 rounds) after 2.074e-06
-Stopped timer 11 at 0.000392442 (7.6e-05 MB, 3 rounds)
-Stopped timer 1 at 17.6263 (1039.5 MB, 18301 rounds)
-The following benchmarks are excluding preprocessing (offline phase).
-Time = 17.7685 seconds 
-Time1 = 17.6263 seconds (1039.5 MB, 18301 rounds)
-Time2 = 5.11469 seconds (12.1203 MB, 7508 rounds)
-Time3 = 0.570809 seconds (48.0004 MB, 12 rounds)
-Time4 = 4.84255 seconds (960.007 MB, 406 rounds)
-Time5 = 0.00179179 seconds (0.000924 MB, 30 rounds)
-Time6 = 3.0939e-05 seconds (0 MB, 0 rounds)
-Time7 = 0.0935387 seconds (0 MB, 0 rounds)
-Time8 = 0.202776 seconds (0 MB, 0 rounds)
-Time9 = 6.5123 seconds (14.5706 MB, 10336 rounds)
-Time10 = 0.287175 seconds (4.8001 MB, 6 rounds)
-Time11 = 0.000392442 seconds (7.6e-05 MB, 3 rounds)
-Data sent = 1039.5 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
-Global data sent = 2079 MB (all parties)
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 14584 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 14584 -h localhost -N 2
-Using SPDZ2k security parameter 64
-Using statistical security parameter 40
-Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 2.9266e-05
-Starting timer 2 at 0 (0 MB, 0 rounds) after 7.32e-07
-Stopped timer 2 at 5.10638 (12.1203 MB, 7508 rounds)
-Starting timer 3 at 0 (0 MB, 0 rounds) after 1.664e-06
-REUSING DATA - ONLY FOR BENCHMARKING
-Stopped timer 3 at 0.565191 (48.0004 MB, 12 rounds)
-Starting timer 4 at 0 (0 MB, 0 rounds) after 2.224e-06
-Stopped timer 4 at 4.88666 (960.007 MB, 406 rounds)
-Starting timer 5 at 0 (0 MB, 0 rounds) after 1.423e-06
-Stopped timer 5 at 0.00173615 (0.000924 MB, 30 rounds)
+Stopped timer 3 at 0.569639 (48.0004 MB, 12 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 2.204e-06
+Stopped timer 4 at 4.98454 (960.007 MB, 406 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.212e-06
+Stopped timer 5 at 0.00172434 (0.000924 MB, 30 rounds)
 Starting timer 6 at 0 (0 MB, 0 rounds) after 9.62e-07
-Stopped timer 6 at 4.6819e-05 (0 MB, 0 rounds)
-Starting timer 7 at 0 (0 MB, 0 rounds) after 6.92e-07
-Stopped timer 7 at 0.0922809 (0 MB, 0 rounds)
-Starting timer 8 at 0 (0 MB, 0 rounds) after 2.374e-06
-Stopped timer 8 at 0.203814 (0 MB, 0 rounds)
-Starting timer 9 at 0 (0 MB, 0 rounds) after 1.333e-06
-Stopped timer 9 at 6.51967 (14.5706 MB, 10336 rounds)
-Starting timer 10 at 0 (0 MB, 0 rounds) after 1.883e-06
-Stopped timer 10 at 0.294175 (4.8001 MB, 6 rounds)
-Starting timer 11 at 0 (0 MB, 0 rounds) after 1.513e-06
-Stopped timer 11 at 0.000491178 (7.6e-05 MB, 3 rounds)
-Stopped timer 1 at 17.6707 (1039.5 MB, 18301 rounds)
+Stopped timer 6 at 2.9996e-05 (0 MB, 0 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 6.81e-07
+Stopped timer 7 at 0.092026 (0 MB, 0 rounds)
+Starting timer 8 at 0 (0 MB, 0 rounds) after 3.076e-06
+Stopped timer 8 at 0.20269 (0 MB, 0 rounds)
+Starting timer 9 at 0 (0 MB, 0 rounds) after 1.723e-06
+Stopped timer 9 at 7.28756 (16.3706 MB, 10336 rounds)
+Starting timer 10 at 0 (0 MB, 0 rounds) after 1.162e-06
+Stopped timer 10 at 0.290702 (4.8001 MB, 6 rounds)
+Starting timer 11 at 0 (0 MB, 0 rounds) after 1.212e-06
+Stopped timer 11 at 0.00031777 (7.6e-05 MB, 3 rounds)
+Stopped timer 1 at 18.5311 (1041.3 MB, 18301 rounds)
 The following benchmarks are excluding preprocessing (offline phase).
-Time = 17.8115 seconds 
-Time1 = 17.6707 seconds (1039.5 MB, 18301 rounds)
-Time2 = 5.10638 seconds (12.1203 MB, 7508 rounds)
-Time3 = 0.565191 seconds (48.0004 MB, 12 rounds)
-Time4 = 4.88666 seconds (960.007 MB, 406 rounds)
-Time5 = 0.00173615 seconds (0.000924 MB, 30 rounds)
-Time6 = 4.6819e-05 seconds (0 MB, 0 rounds)
-Time7 = 0.0922809 seconds (0 MB, 0 rounds)
-Time8 = 0.203814 seconds (0 MB, 0 rounds)
-Time9 = 6.51967 seconds (14.5706 MB, 10336 rounds)
-Time10 = 0.294175 seconds (4.8001 MB, 6 rounds)
-Time11 = 0.000491178 seconds (7.6e-05 MB, 3 rounds)
-Data sent = 1039.5 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
-Global data sent = 2079 MB (all parties)
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 18864 -h localhost -N 2
-Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 18864 -h localhost -N 2
+Time = 18.6723 seconds 
+Time1 = 18.5311 seconds (1041.3 MB, 18301 rounds)
+Time2 = 5.1016 seconds (12.1203 MB, 7508 rounds)
+Time3 = 0.569639 seconds (48.0004 MB, 12 rounds)
+Time4 = 4.98454 seconds (960.007 MB, 406 rounds)
+Time5 = 0.00172434 seconds (0.000924 MB, 30 rounds)
+Time6 = 2.9996e-05 seconds (0 MB, 0 rounds)
+Time7 = 0.092026 seconds (0 MB, 0 rounds)
+Time8 = 0.20269 seconds (0 MB, 0 rounds)
+Time9 = 7.28756 seconds (16.3706 MB, 10336 rounds)
+Time10 = 0.290702 seconds (4.8001 MB, 6 rounds)
+Time11 = 0.00031777 seconds (7.6e-05 MB, 3 rounds)
+Data sent = 1041.3 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 2082.6 MB (all parties)
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 11674 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 11674 -h localhost -N 2
 Using SPDZ2k security parameter 64
 Using statistical security parameter 40
 Trying to run 64-bit computation
-Starting timer 1 at 0 (0 MB, 0 rounds) after 4.201e-05
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.9215e-05
 Starting timer 2 at 0 (0 MB, 0 rounds) after 7.42e-07
-Stopped timer 2 at 5.11449 (12.1203 MB, 7508 rounds)
-Starting timer 3 at 0 (0 MB, 0 rounds) after 2.164e-06
+Stopped timer 2 at 5.12467 (12.1203 MB, 7508 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 1.152e-06
 REUSING DATA - ONLY FOR BENCHMARKING
-Stopped timer 3 at 0.56427 (48.0004 MB, 12 rounds)
-Starting timer 4 at 0 (0 MB, 0 rounds) after 1.192e-06
-Stopped timer 4 at 4.85517 (960.007 MB, 406 rounds)
-Starting timer 5 at 0 (0 MB, 0 rounds) after 1.282e-06
-Stopped timer 5 at 0.0019537 (0.000924 MB, 30 rounds)
-Starting timer 6 at 0 (0 MB, 0 rounds) after 1.012e-06
-Stopped timer 6 at 3.5026e-05 (0 MB, 0 rounds)
-Starting timer 7 at 0 (0 MB, 0 rounds) after 6.71e-07
-Stopped timer 7 at 0.0926131 (0 MB, 0 rounds)
-Starting timer 8 at 0 (0 MB, 0 rounds) after 2.935e-06
-Stopped timer 8 at 0.206312 (0 MB, 0 rounds)
-Starting timer 9 at 0 (0 MB, 0 rounds) after 2.254e-06
-Stopped timer 9 at 6.49461 (14.5706 MB, 10336 rounds)
-Starting timer 10 at 0 (0 MB, 0 rounds) after 1.653e-06
-Stopped timer 10 at 0.290086 (4.8001 MB, 6 rounds)
-Starting timer 11 at 0 (0 MB, 0 rounds) after 1.994e-06
-Stopped timer 11 at 0.000582832 (7.6e-05 MB, 3 rounds)
-Stopped timer 1 at 17.6205 (1039.5 MB, 18301 rounds)
+Stopped timer 3 at 0.566067 (48.0004 MB, 12 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.042e-06
+Stopped timer 4 at 5.4596 (960.007 MB, 406 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.182e-06
+Stopped timer 5 at 0.00189236 (0.000924 MB, 30 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.001e-06
+Stopped timer 6 at 2.9626e-05 (0 MB, 0 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 8.42e-07
+Stopped timer 7 at 0.0918527 (0 MB, 0 rounds)
+Starting timer 8 at 0 (0 MB, 0 rounds) after 2.335e-06
+Stopped timer 8 at 0.206567 (0 MB, 0 rounds)
+Starting timer 9 at 0 (0 MB, 0 rounds) after 1.984e-06
+Stopped timer 9 at 7.29572 (16.3706 MB, 10336 rounds)
+Starting timer 10 at 0 (0 MB, 0 rounds) after 1.784e-06
+Stopped timer 10 at 0.289261 (4.8001 MB, 6 rounds)
+Starting timer 11 at 0 (0 MB, 0 rounds) after 1.303e-06
+Stopped timer 11 at 0.000345583 (7.6e-05 MB, 3 rounds)
+Stopped timer 1 at 19.0363 (1041.3 MB, 18301 rounds)
 The following benchmarks are excluding preprocessing (offline phase).
-Time = 17.7658 seconds 
-Time1 = 17.6205 seconds (1039.5 MB, 18301 rounds)
-Time2 = 5.11449 seconds (12.1203 MB, 7508 rounds)
-Time3 = 0.56427 seconds (48.0004 MB, 12 rounds)
-Time4 = 4.85517 seconds (960.007 MB, 406 rounds)
-Time5 = 0.0019537 seconds (0.000924 MB, 30 rounds)
-Time6 = 3.5026e-05 seconds (0 MB, 0 rounds)
-Time7 = 0.0926131 seconds (0 MB, 0 rounds)
-Time8 = 0.206312 seconds (0 MB, 0 rounds)
-Time9 = 6.49461 seconds (14.5706 MB, 10336 rounds)
-Time10 = 0.290086 seconds (4.8001 MB, 6 rounds)
-Time11 = 0.000582832 seconds (7.6e-05 MB, 3 rounds)
-Data sent = 1039.5 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
-Global data sent = 2079 MB (all parties)
+Time = 19.1775 seconds 
+Time1 = 19.0363 seconds (1041.3 MB, 18301 rounds)
+Time2 = 5.12467 seconds (12.1203 MB, 7508 rounds)
+Time3 = 0.566067 seconds (48.0004 MB, 12 rounds)
+Time4 = 5.4596 seconds (960.007 MB, 406 rounds)
+Time5 = 0.00189236 seconds (0.000924 MB, 30 rounds)
+Time6 = 2.9626e-05 seconds (0 MB, 0 rounds)
+Time7 = 0.0918527 seconds (0 MB, 0 rounds)
+Time8 = 0.206567 seconds (0 MB, 0 rounds)
+Time9 = 7.29572 seconds (16.3706 MB, 10336 rounds)
+Time10 = 0.289261 seconds (4.8001 MB, 6 rounds)
+Time11 = 0.000345583 seconds (7.6e-05 MB, 3 rounds)
+Data sent = 1041.3 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 2082.6 MB (all parties)
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 19089 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 19089 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 3.0217e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 7.31e-07
+Stopped timer 2 at 5.13526 (12.1203 MB, 7508 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 1.543e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 0.561452 (48.0004 MB, 12 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.974e-06
+Stopped timer 4 at 4.85081 (960.007 MB, 406 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.222e-06
+Stopped timer 5 at 0.00166797 (0.000924 MB, 30 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.042e-06
+Stopped timer 6 at 4.2701e-05 (0 MB, 0 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 6.81e-07
+Stopped timer 7 at 0.0942138 (0 MB, 0 rounds)
+Starting timer 8 at 0 (0 MB, 0 rounds) after 1.934e-06
+Stopped timer 8 at 0.206947 (0 MB, 0 rounds)
+Starting timer 9 at 0 (0 MB, 0 rounds) after 1.503e-06
+Stopped timer 9 at 7.29812 (16.3706 MB, 10336 rounds)
+Starting timer 10 at 0 (0 MB, 0 rounds) after 1.162e-06
+Stopped timer 10 at 0.305381 (4.8001 MB, 6 rounds)
+Starting timer 11 at 0 (0 MB, 0 rounds) after 1.633e-06
+Stopped timer 11 at 0.000302932 (7.6e-05 MB, 3 rounds)
+Stopped timer 1 at 18.4545 (1041.3 MB, 18301 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 18.5998 seconds 
+Time1 = 18.4545 seconds (1041.3 MB, 18301 rounds)
+Time2 = 5.13526 seconds (12.1203 MB, 7508 rounds)
+Time3 = 0.561452 seconds (48.0004 MB, 12 rounds)
+Time4 = 4.85081 seconds (960.007 MB, 406 rounds)
+Time5 = 0.00166797 seconds (0.000924 MB, 30 rounds)
+Time6 = 4.2701e-05 seconds (0 MB, 0 rounds)
+Time7 = 0.0942138 seconds (0 MB, 0 rounds)
+Time8 = 0.206947 seconds (0 MB, 0 rounds)
+Time9 = 7.29812 seconds (16.3706 MB, 10336 rounds)
+Time10 = 0.305381 seconds (4.8001 MB, 6 rounds)
+Time11 = 0.000302932 seconds (7.6e-05 MB, 3 rounds)
+Data sent = 1041.3 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 2082.6 MB (all parties)
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 0 flame_leaky-10-300000 -F -pn 12795 -h localhost -N 2
+Running /home/y-yordanov/workspace/AlphaFL-FLAME/Scripts/../spdz2k-party.x 1 flame_leaky-10-300000 -F -pn 12795 -h localhost -N 2
+Using SPDZ2k security parameter 64
+Using statistical security parameter 40
+Trying to run 64-bit computation
+Starting timer 1 at 0 (0 MB, 0 rounds) after 2.9886e-05
+Starting timer 2 at 0 (0 MB, 0 rounds) after 7.21e-07
+Stopped timer 2 at 5.12499 (12.1203 MB, 7508 rounds)
+Starting timer 3 at 0 (0 MB, 0 rounds) after 1.924e-06
+REUSING DATA - ONLY FOR BENCHMARKING
+Stopped timer 3 at 0.567498 (48.0004 MB, 12 rounds)
+Starting timer 4 at 0 (0 MB, 0 rounds) after 1.212e-06
+Stopped timer 4 at 4.92044 (960.007 MB, 406 rounds)
+Starting timer 5 at 0 (0 MB, 0 rounds) after 1.673e-06
+Stopped timer 5 at 0.00207372 (0.000924 MB, 30 rounds)
+Starting timer 6 at 0 (0 MB, 0 rounds) after 1.523e-06
+Stopped timer 6 at 3.0487e-05 (0 MB, 0 rounds)
+Starting timer 7 at 0 (0 MB, 0 rounds) after 6.91e-07
+Stopped timer 7 at 0.0929208 (0 MB, 0 rounds)
+Starting timer 8 at 0 (0 MB, 0 rounds) after 2.996e-06
+Stopped timer 8 at 0.208184 (0 MB, 0 rounds)
+Starting timer 9 at 0 (0 MB, 0 rounds) after 1.553e-06
+Stopped timer 9 at 7.29413 (16.3706 MB, 10336 rounds)
+Starting timer 10 at 0 (0 MB, 0 rounds) after 1.342e-06
+Stopped timer 10 at 0.307379 (4.8001 MB, 6 rounds)
+Starting timer 11 at 0 (0 MB, 0 rounds) after 2.275e-06
+Stopped timer 11 at 0.00083706 (7.6e-05 MB, 3 rounds)
+Stopped timer 1 at 18.5188 (1041.3 MB, 18301 rounds)
+The following benchmarks are excluding preprocessing (offline phase).
+Time = 18.6601 seconds 
+Time1 = 18.5188 seconds (1041.3 MB, 18301 rounds)
+Time2 = 5.12499 seconds (12.1203 MB, 7508 rounds)
+Time3 = 0.567498 seconds (48.0004 MB, 12 rounds)
+Time4 = 4.92044 seconds (960.007 MB, 406 rounds)
+Time5 = 0.00207372 seconds (0.000924 MB, 30 rounds)
+Time6 = 3.0487e-05 seconds (0 MB, 0 rounds)
+Time7 = 0.0929208 seconds (0 MB, 0 rounds)
+Time8 = 0.208184 seconds (0 MB, 0 rounds)
+Time9 = 7.29413 seconds (16.3706 MB, 10336 rounds)
+Time10 = 0.307379 seconds (4.8001 MB, 6 rounds)
+Time11 = 0.00083706 seconds (7.6e-05 MB, 3 rounds)
+Data sent = 1041.3 MB in ~18301 rounds (party 0 only; rounds counted double due to multi-threading; use '-v' for more details)
+Global data sent = 2082.6 MB (all parties)
